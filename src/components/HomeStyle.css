@@ -1,0 +1,53 @@
+.bg-myBg {
+    background-color: #527A6F;
+    color: #EBE4DA;;
+    
+}
+
+.warna {
+    padding-top: 7px;
+    font-family: 'Public Sans';
+    color: #EBE4DA; 
+}
+
+.warna-brand {
+    color: #EBE4DA; 
+}
+
+.gambar {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.text {
+    padding-top: 50px;
+    color: #527A6F;
+    text-align: center;
+    font-family: 'Public Sans';
+    padding-bottom: 50px;
+   
+}
+
+.card-gambar {
+    display: flex;
+    align-items: center;
+    
+    padding: auto;
+    margin: auto;
+}
+
+
+.text-card-judul {
+    font-weight: bold;
+    color: #527A6F;
+    font-family: 'Public Sans';
+}
+
+.text-card {
+    text-align: justify;
+    font-size: small;
+    color: #527A6F;
+    font-family: 'Public Sans';
+
+}
