@@ -1,0 +1,16 @@
+.underline {
+    text-decoration: underline;
+    color: #EBE4DA;
+}
+
+.text-tengah {
+    color: #527A6F;
+    font-family: 'Public Sans';
+    text-align: left;
+}
+
+.arrow {
+    width: 20%;
+    display: inline;
+    margin-left: 70px;
+}

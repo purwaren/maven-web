@@ -1,14 +1,13 @@
 import { Card, Row, Col , Container, Stack} from "react-bootstrap";
 import Footer from "./Footer";
 import NavbarTop from './Navbar';
-import Gb4 from '../img/Gambar4.png';
+import Gb5 from '../img/Gambar5.png';
 import './About.css';
 import Arrow from '../img/Arrow.png';
 import Line from '../img/Line.png';
-import {Link , Route} from 'react-router-dom';
-import Mission from './Mission';
+import {Link} from 'react-router-dom';
 
-const About = () => {
+const Mission = () => {
 
     let inputStyle = {
         border: '1px solid black'
@@ -19,7 +18,7 @@ const About = () => {
             <NavbarTop />
                 <div className='gambar'>
                     <Card border="0">
-                        <Card.Img  variant='top' src={Gb4} />
+                        <Card.Img  variant='top' src={Gb5} />
                     </Card> 
 
                     {/* <img src={Gb4} alt="" /> */}
@@ -32,9 +31,9 @@ const About = () => {
                                 <h6 className="text-tengah" >Vission<img src={Arrow} className='arrow' alt="" style={{marginLeft: '75px'}} /></h6>
                             </Link>
                             <img src={Line} alt="" />
-                           <Link to='mission' style={{textDecoration: 'none'}} >
-                                <h6 className="text-tengah" >Mission<img src={Arrow} className='arrow' alt="" /></h6>
-                            </Link>                       
+                            <Link to='/about/mission' style={{textDecoration: 'none'}}  >
+                            <h6 className="text-tengah" >Mission<img src={Arrow} className='arrow' alt="" /></h6>
+                            </Link>
                             <img src={Line} alt="" />
                             <h6 className="text-tengah" >Value<img src={Arrow} className='arrow' alt="" style={{marginLeft: '85px'}} /></h6>
                             <img src={Line} alt="" />
@@ -43,17 +42,27 @@ const About = () => {
                             </Stack>
                         </Col>
 
-                        <Col className="text-tengah" style={{ textAlign: 'justify' }}>Our main vision is to be a world class artisan real estate company. Starting 
-                            from the smallest step, we believe that courage, consistency, and passion 
-                            can lead us to a bigger path. This means to keep evolving in many elements 
-                            in order to pursue a better version of us.'
+                        <Col className="text-tengah" style={{ textAlign: 'justify' }}>Mission is what makes us keep insisting in moving forward. 
+                            The main point 
+                            of our missions is:
+
+                            To be at the forefront of the real estate industry 
+                            by continuously producing innovative and problem
+                            -solving projects for customers, and also providing 
+                            a good investment for stakeholders and the people. 
+                            We strive to keep growing together as a big family 
+                            of the company.
                         </Col>
 
                         <Col className="text-tengah" style={{ textAlign: 'justify' }}>
-                        The bigger the path the easier it 
-                        gets to introduce our work to the community. We also hope to create a wide 
-                        range of possibilities with this vision. As a result, our business won't follow 
-                        the same path; instead, we insist on developing new products.
+                        By being responsive, creative, and problem-solving, our objective serves to 
+                        keep us evolving and focused on delivering top-notch products and services 
+                        in the real estate business. In addition to providing high-quality goods, we 
+                        work hard to be a wise investment for community members and stakeholders. 
+                        Throughout the process, we always related to one another as a whole solid 
+                        family. We will also work with trustworthy sources, notably professionals, 
+                        to uphold our standards of excellence and contribute to creating a stronger 
+                        real estate industry environment.
                         </Col>
                     </Row>
                 </Container>
@@ -63,4 +72,4 @@ const About = () => {
     )
 }
 
-export default About;
+export default Mission;

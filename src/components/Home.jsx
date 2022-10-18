@@ -6,7 +6,7 @@ import Gb2 from '../img/Gambar2.png';
 import Gb3 from '../img/Gambar3.png';
 import Footer from './Footer';
 import NavbarTop from './Navbar';
-
+import arrow from '../img/ArrPutih.png';
 
 
 function Home(){
@@ -15,25 +15,30 @@ function Home(){
   
       <NavbarTop />
       
+     
       <div className='gambar'>
-        <Card border='0'>
+       <Card border='0'>
           <Card.Img  variant='top' src={Depan} />
         </Card>
+
+        {/* <img src={Depan} alt="" /> */}
+
       </div>
+     
 
       <div className='text'>
         <h3>Maven Project</h3>
       </div>
 
       
-      <Container fluid className='card-gambar' >
+      <Container className='card-gambar' >
           <Card style={{ width: '25rem' , paddingRight: '20px' }} className='border-0'>
             <Card.Img variant="top" src={Gb1} />
             <Card.Body style={{ backgroundColor: '#EBE4DA' }}>
               <div>
-
+               
                 <Button className='btn-sm' style={{float: 'right', backgroundColor:'#527A6F' , border:'none'}} 
-                variant="primary">See Property</Button>
+                variant="primary">See Property <img src={arrow} alt="" style={{ width: '15px' }}/> </Button>
 
                 <Card.Title><h6 className='text-card-judul'>Joglo Maven Townhouse</h6></Card.Title>
                 <Card.Text>
@@ -57,7 +62,7 @@ function Home(){
               <div>
 
                 <Button className='btn-sm' style={{float: 'right', backgroundColor:'#527A6F' , border:'none'}} 
-                variant="primary">See Property</Button>
+                variant="primary">See Property <img src={arrow} alt="" style={{ width: '15px' }}/> </Button>
 
                 <Card.Title><h6 className='text-card-judul'>Ansana Project</h6></Card.Title>
                 <Card.Text>
@@ -81,7 +86,7 @@ function Home(){
               <div>
 
                 <Button className='btn-sm' style={{float: 'right', backgroundColor:'#527A6F' , border:'none'}} 
-                variant="primary">See Property</Button>
+                variant="primary">See Property <img src={arrow} alt="" style={{ width: '15px' }}/> </Button>
 
                 <Card.Title><h6 className='text-card-judul'>Maven Townhouse</h6></Card.Title>
                 <Card.Text>

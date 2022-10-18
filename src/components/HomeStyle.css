@@ -7,16 +7,24 @@
 .warna {
     padding-top: 7px;
     font-family: 'Public Sans';
-    color: #EBE4DA; 
+    color: #EBE4DA;
+   
+    
 }
+
+.link-aktif {
+    text-decoration-color: #EBE4DA;
+}
+
+
 
 .warna-brand {
     color: #EBE4DA; 
 }
 
 .gambar {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 50%;
     
 }
 
@@ -32,7 +40,6 @@
 .card-gambar {
     display: flex;
     align-items: center;
-    
     padding: auto;
     margin: auto;
 }
