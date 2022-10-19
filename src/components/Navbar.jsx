@@ -6,19 +6,44 @@ import {useState} from 'react';
 
 
 const NavbarTop = () => {
+
+  const [style, setStyle] = useState('link-mati');
+  const [style2, setStyle2] = useState('link-mati');
+  const [style3, setStyle3] = useState('link-mati');
+  const [style4, setStyle4] = useState('link-mati');
+  const [style5, setStyle5] = useState('link-mati');
+  const changeStyle1 = () => {
+    setStyle('link-aktif1');
+  }
+  const changeStyle2 = () => {
+    setStyle2('link-aktif2');
+  }
+  const changeStyle3 = () => {
+    setStyle3('link-aktif3');
+  }
+
+  const changeStyle4 = () => {
+    setStyle4('link-aktif4');
+  }
+
+  const changeStyle5 = () => {
+    setStyle5('link-aktif5');
+  }
+
   return (
     <Navbar bg='myBg' expand="lg">
     <Container>
       {/* <Navbar.Brand href="/"><img src={Logo} alt="" /></Navbar.Brand> */}
-      <Navbar.Brand> <Link to='/'> <img src={Logo} alt="" /> </Link> </Navbar.Brand>
+      <Navbar.Brand> <Link to='/'> <img src={Logo} style={{width: '70%'}} alt="" /> </Link> </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className='justify-content-end' id="basic-navbar-nav">
         <Nav>
-          <Nav.Link ><Link to='about' style={{textDecorationColor: ' #EBE4DA'}}><p className='warna'>About Maven</p></Link></Nav.Link>
-          <Nav.Link href="#link"><p className='warna'>Investor Relation</p></Nav.Link>
-          <Nav.Link href="#link"><p className='warna'>Product</p></Nav.Link>
-          <Nav.Link href="#link"><p className='warna'>News</p></Nav.Link>
-          <Nav.Link href="#link"><p className='warna'>Contact</p></Nav.Link>
+          <Link to='/about/vission' style={{marginRight: '25px'}} className={style} onClick={changeStyle1} ><p className={'warna'}>About Maven</p></Link>
+          <Link style={{marginRight: '25px'}} to='#' className={style2} onClick={changeStyle2}><p className='warna'>Investor Relation</p></Link>
+          <Link style={{marginRight: '25px'}} to='#' className={style3} onClick={changeStyle3} ><p className='warna'>Product</p></Link>
+          <Link style={{marginRight: '25px'}}to='#'  className={style4} onClick={changeStyle4}><p className='warna'>News</p></Link>
+          {/* <Nav.Link href="/contact"><p className='warna'>Contact</p></Nav.Link> */}
+          <Link to='/contact' className={style5} onClick={changeStyle5}><p className={'warna'}>Contact</p></Link>
         </Nav>
       </Navbar.Collapse>
     </Container>

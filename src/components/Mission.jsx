@@ -26,17 +26,20 @@ const Mission = () => {
                     <Row style={{ textAlign: 'center', paddingTop: '50px', height: '50%' }}>
                         <Col xs lg='2'>
                             <Stack gap={4}>
-                            <img src={Line} alt="" />
-                            <Link to='/about' style={{textDecoration: 'none'}}>
+                            <img src={Line} alt="" style={{opacity: '0.5'}}/>
+                            <Link to='/about/vission' style={{textDecoration: 'none', opacity: '0.5'}}>
                                 <h6 className="text-tengah" >Vission<img src={Arrow} className='arrow' alt="" style={{marginLeft: '75px'}} /></h6>
                             </Link>
+                            
                             <img src={Line} alt="" />
-                            <Link to='/about/mission' style={{textDecoration: 'none'}}  >
+                            <Link to='' style={{textDecoration: 'none'}}  >
                             <h6 className="text-tengah" >Mission<img src={Arrow} className='arrow' alt="" /></h6>
                             </Link>
                             <img src={Line} alt="" />
-                            <h6 className="text-tengah" >Value<img src={Arrow} className='arrow' alt="" style={{marginLeft: '85px'}} /></h6>
-                            <img src={Line} alt="" />
+                            <Link to='/about/value' style={{textDecoration: 'none' , opacity: '0.5'}}>
+                                <h6 className="text-tengah" >Value<img src={Arrow} className='arrow' alt="" style={{marginLeft: '85px'}} /></h6>
+                            </Link>
+                            <img src={Line} alt="" style={{opacity: '0.5'}} />
                             <h6 className="text-tengah" >Team<img src={Arrow} className='arrow' alt="" style={{marginLeft: '85px'}}/></h6>
                             <img src={Line} alt="" />
                             </Stack>

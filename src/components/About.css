@@ -14,3 +14,22 @@
     display: inline;
     margin-left: 70px;
 }
+
+.topbar {
+    text-decoration: #EBE4DA;
+}
+
+.peta {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    position: relative;
+    float: right;
+    width: 50%;
+}
+
+.text-contact{
+    padding-top: 50px;
+    color: #527A6F;
+    font-family: 'Public Sans';
+    padding-bottom: 50px;
+}

@@ -12,9 +12,29 @@
     
 }
 
-.link-aktif {
+.link-mati {
+    text-decoration: none;
+}
+
+.link-aktif1 {
     text-decoration-color: #EBE4DA;
 }
+.link-aktif2 {
+    text-decoration-color: #EBE4DA;
+}
+
+.link-aktif3 {
+    text-decoration-color: #EBE4DA;
+}
+
+.link-aktif4 {
+    text-decoration-color: #EBE4DA;
+}
+
+.link-aktif5 {
+    text-decoration-color: #EBE4DA;
+}
+
 
 
 
