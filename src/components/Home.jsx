@@ -15,7 +15,7 @@ function Home(){
   
       <NavbarTop />
       
-     
+      
       <div className='gambar'>
        <Card border='0'>
           <Card.Img  variant='top' src={Depan} />

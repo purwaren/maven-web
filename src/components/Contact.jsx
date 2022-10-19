@@ -1,7 +1,6 @@
 import { Form, Row, Col , Container, Button} from "react-bootstrap";
 import Footer from "./Footer";
 import NavbarTop from './Navbar';
-import {Link , Route} from 'react-router-dom';
 import peta from '../img/peta.png'
 import './About.css';
 
@@ -41,7 +40,7 @@ const Contact = () => {
             </div>
             
                 
-                <Container style={{paddingTop: '40px'}}>
+                <Container style={{paddingTop: '40px',paddingBottom: '100px'}}>
                 <Row>
                 <Col>
                     <Form>
@@ -69,7 +68,7 @@ const Contact = () => {
                     </Row>
                 </Container>
                 
-            <Footer />
+        
         </div>
     )
 }
