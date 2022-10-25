@@ -39,8 +39,10 @@ const Value = () => {
                                 <h6 className="text-tengah" >Value<img src={Arrow} className='arrow' alt="" style={{marginLeft: '85px'}} /></h6>
                             </Link>
                             <img src={Line} alt="" />
-                            <h6 className="text-tengah" >Team<img src={Arrow} className='arrow' alt="" style={{marginLeft: '85px'}}/></h6>
-                            <img src={Line} alt="" />
+                            <Link to='#' style={{textDecoration: 'none' , opacity: '0.5'}}>
+                                <h6 className="text-tengah" >Team<img src={Arrow} className='arrow' alt="" style={{marginLeft: '85px'}}/></h6>
+                            </Link>
+                            <img src={Line} alt="" style={{opacity: '0.5'}}/>
                             </Stack>
                         </Col>
 

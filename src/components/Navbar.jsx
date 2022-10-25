@@ -7,6 +7,7 @@ import {useState} from 'react';
 
 const NavbarTop = () => {
 
+  
   const [style, setStyle] = useState('link-mati');
   const [style2, setStyle2] = useState('link-mati');
   const [style3, setStyle3] = useState('link-mati');
@@ -39,7 +40,7 @@ const NavbarTop = () => {
       <Navbar.Collapse className='justify-content-end' id="basic-navbar-nav">
         <Nav>
           <Link to='/about/vission' style={{marginRight: '25px'}} className={style} onClick={changeStyle1} ><p className={'warna'}>About Maven</p></Link>
-          <Link style={{marginRight: '25px'}} to='#' className={style2} onClick={changeStyle2}><p className='warna'>Investor Relation</p></Link>
+          <Link style={{marginRight: '25px'}} to='#' className={style2} onClick={changeStyle2}><p className='warna'>Collaboration With Us</p></Link>
           <Link style={{marginRight: '25px'}} to='#' className={style3} onClick={changeStyle3} ><p className='warna'>Product</p></Link>
           <Link style={{marginRight: '25px'}}to='#'  className={style4} onClick={changeStyle4}><p className='warna'>News</p></Link>
           {/* <Nav.Link href="/contact"><p className='warna'>Contact</p></Nav.Link> */}

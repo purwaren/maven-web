@@ -19,7 +19,7 @@ const Contact = () => {
                     </Col>
                 </Row>
 
-                <Row style={{marginTop: '-50px'}}>
+                <Row style={{marginTop: '-90px'}}>
                     <Col xs={2} className='text-contact'> <p>Telephone</p>  </Col>
 
                     <Col  xs={4} className='text-contact'>
@@ -42,7 +42,7 @@ const Contact = () => {
                 
                 <Container style={{paddingTop: '40px',paddingBottom: '100px'}}>
                 <Row>
-                <Col>
+                <Col xs={10}>
                     <Form>
                             <Form.Group  className="mb-3" controlId="formBasicEmail">
                                 <Form.Control style={{backgroundColor: '#D9D9D9'}} type="text" placeholder="First name*" />

@@ -8,7 +8,7 @@ function Footer(){
     <Navbar bg='myBg' expand="lg">
         <Container style={{paddingTop: '25px'}}>
           <Row>
-            <Col xs lg="2">
+            <Col xs={1}>
               <Navbar.Text><p className='warna'>Kantor pusat</p></Navbar.Text>
             </Col>
             <Col xs={3}>
@@ -22,16 +22,26 @@ function Footer(){
               </Navbar.Text>
             </Col>
           
-            <Col >
-              <Navbar.Text><p className='warna'>Telephone</p></Navbar.Text>
-              <Navbar.Text><p className='warna'>E-Mail</p></Navbar.Text>
+            <Col>
+              <ul className='warna' >
+                <li>Telephone</li>
+                <li>E-Mail</li>
+              </ul>
+              {/* <Navbar.Text><p className='warna'>Telephone</p></Navbar.Text>
+              <Navbar.Text ><p className='warna'  >E-Mail</p></Navbar.Text> */}
             </Col>
             <Col>
-              <Navbar.Text><p className='warna'>+62 8170141234</p></Navbar.Text>
-              <Navbar.Text><p className='warna'>info@mavenindonesia.com</p></Navbar.Text>
+              {/* <Navbar.Text><p className='warna'>+62 8170141234</p></Navbar.Text>
+              <Navbar.Text><p className='warna'>info@mavenindonesia.com</p></Navbar.Text> */}
+              <ul className='warna' >
+                <li>+62 8170141234</li>
+                <li>info@mavenindonesia.com</li>
+              </ul>
+            </Col>
+            <Col>
+              <Navbar.Text><p className='warna'>Pencarian</p></Navbar.Text>
             </Col>
             <Col xs={3}>
-              <Navbar.Text><p className='warna'>Pencarian</p></Navbar.Text>
             
               <Form className="d-flex">
               <Form.Control
@@ -40,7 +50,7 @@ function Footer(){
                 className="me-2"
                 aria-label="Search"
               />
-              <Button style={{ backgroundColor: '#B8B6B6', color: '#EBE4DA' }} variant="outline-none">Go</Button>
+              <Button  style={{ backgroundColor: '#B8B6B6', color: '#EBE4DA' }} variant="outline-none">Go</Button>
           </Form>
             </Col>
           </Row>
