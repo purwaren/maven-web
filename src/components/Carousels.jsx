@@ -3,8 +3,7 @@ import './HomeStyle.css';
 import Gambar1 from '../img/Carousel.png';
 import Gambar2 from '../img/Carousel2.png';
 import Gambar3 from '../img/Carousel3.png';
-import Footer from './Footer';
-import NavbarTop from './Navbar';
+
 
 
 const Carousels = () => { 
