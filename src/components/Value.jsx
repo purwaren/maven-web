@@ -1,7 +1,7 @@
 import { Card, Row, Col , Container, Stack} from "react-bootstrap";
 import Footer from "./Footer";
 import NavbarTop from './Navbar';
-import Gb6 from '../img/Gambar6.png';
+import Gb6 from '../img/Value.png';
 import './About.css';
 import Arrow from '../img/Arrow.png';
 import Line from '../img/Line.png';
@@ -9,12 +9,8 @@ import {Link} from 'react-router-dom';
 
 const Value = () => {
 
-    let inputStyle = {
-        border: '1px solid black'
-    }
-
     return (
-        <div>
+        <div style={{paddingBottom: '50px'}}>
             <NavbarTop />
                 <div className='gambar'>
                     <Card border="0">
@@ -39,7 +35,7 @@ const Value = () => {
                                 <h6 className="text-tengah" >Value<img src={Arrow} className='arrow' alt="" style={{marginLeft: '85px'}} /></h6>
                             </Link>
                             <img src={Line} alt="" />
-                            <Link to='#' style={{textDecoration: 'none' , opacity: '0.5'}}>
+                            <Link to='/about/team' style={{textDecoration: 'none' , opacity: '0.5'}}>
                                 <h6 className="text-tengah" >Team<img src={Arrow} className='arrow' alt="" style={{marginLeft: '85px'}}/></h6>
                             </Link>
                             <img src={Line} alt="" style={{opacity: '0.5'}}/>
@@ -59,7 +55,6 @@ const Value = () => {
                     </Row>
                 </Container>
                 </div>
-            <Footer />
         </div>
     )
 }

@@ -1,7 +1,7 @@
 import { Card, Row, Col , Container, Stack} from "react-bootstrap";
 import Footer from "./Footer";
 import NavbarTop from './Navbar';
-import Gb5 from '../img/Gambar5.png';
+import Gb5 from '../img/Mission.png';
 import './About.css';
 import Arrow from '../img/Arrow.png';
 import Line from '../img/Line.png';
@@ -11,7 +11,7 @@ const Mission = () => {
 
 
     return (
-        <div>
+        <div style={{paddingBottom: '50px'}}>
             <NavbarTop />
                 <div className='gambar'>
                     <Card border="0">
@@ -37,7 +37,7 @@ const Mission = () => {
                                 <h6 className="text-tengah" >Value<img src={Arrow} className='arrow' alt="" style={{marginLeft: '85px'}} /></h6>
                             </Link>
                             <img src={Line} alt="" style={{opacity: '0.5'}} />
-                            <Link to='#' style={{textDecoration: 'none' , opacity: '0.5'}}>
+                            <Link to='/about/team' style={{textDecoration: 'none' , opacity: '0.5'}}>
                                 <h6 className="text-tengah" >Team<img src={Arrow} className='arrow' alt="" style={{marginLeft: '85px'}}/></h6>
                             </Link>
                             <img src={Line} alt="" style={{opacity: '0.5'}}/>
@@ -69,7 +69,6 @@ const Mission = () => {
                     </Row>
                 </Container>
                 </div>
-            <Footer />
         </div>
     )
 }

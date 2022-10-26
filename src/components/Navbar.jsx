@@ -42,7 +42,7 @@ const NavbarTop = () => {
           <Link to='/about/vission' style={{marginRight: '25px'}} className={style} onClick={changeStyle1} ><p className={'warna'}>About Maven</p></Link>
           <Link style={{marginRight: '25px'}} to='#' className={style2} onClick={changeStyle2}><p className='warna'>Collaboration With Us</p></Link>
           <Link style={{marginRight: '25px'}} to='#' className={style3} onClick={changeStyle3} ><p className='warna'>Product</p></Link>
-          <Link style={{marginRight: '25px'}}to='#'  className={style4} onClick={changeStyle4}><p className='warna'>News</p></Link>
+          {/* <Link style={{marginRight: '25px'}}to='#'  className={style4} onClick={changeStyle4}><p className='warna'>News</p></Link> */}
           {/* <Nav.Link href="/contact"><p className='warna'>Contact</p></Nav.Link> */}
           <Link to='/contact' className={style5} onClick={changeStyle5}><p className={'warna'}>Contact</p></Link>
         </Nav>
