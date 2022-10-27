@@ -23,7 +23,7 @@ const Contact = () => {
                     <Col xs={2} className='text-contact'> <p>Telephone</p>  </Col>
 
                     <Col  xs={4} className='text-contact'>
-                    <p>+62 8170141234</p>
+                    <p>+62 81242421985</p>
                     </Col>
                 </Row>
                 <Row style={{marginTop: '-80px'}}>

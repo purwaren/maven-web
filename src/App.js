@@ -7,6 +7,9 @@ import About from './components/About';
 import Mission from './components/Mission';
 import Value from './components/Value';
 import Contact from './components/Contact';
+import Team from './components/Team';
+import Product from './components/Product';
+import Product1 from './components/Product1';
 
 function App() {
   return ( 
@@ -16,6 +19,9 @@ function App() {
       <Route path='/about/mission' element={<Mission />} />
       <Route path='/about/value' element={<Value />} />
       <Route path='/contact' element={<Contact />} />
+      <Route path='/about/team' element={<Team />} />
+      <Route path='/product' element={<Product />} />
+      <Route path='/product/1' element={<Product1 />} />
     </Routes>
   )
 }
