@@ -1,0 +1,7 @@
+.text-nama {
+    display: flex;
+    font-family: 'Public Sans';
+    color: #527A6F;
+    font-weight: 600;
+    padding-left: 25px;
+}

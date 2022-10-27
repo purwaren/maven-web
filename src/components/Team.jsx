@@ -17,23 +17,33 @@ const Team = () => {
                 <NavbarTop />
 
                 <Container className="text-nama">
-                    <Row style={{paddingTop: '50px', fontSize: 'larger', alignContent: 'space-between', display: 'flex', justifyContent: 'space-around'}}>
+                    {/* <Row style={{paddingTop: '50px', fontSize: 'larger', alignContent: 'space-between', display: 'flex', justifyContent: 'space-around'}}>
                         <Col>Aziz Cahya Perdana</Col>
                         <Col style={{paddingLeft: '120px'}}>Novriansyah Yakub</Col>
-                        <Col style={{paddingLeft: '120px'}}>Tri Mukhlison Anugrah</Col>
-                    </Row>
+                        <Col xs lg='5' style={{paddingLeft: '120px'}}>Tri Mukhlison Anugrah</Col>
+                    </Row> */}
 
-                    <Row style={{fontSize: 'smaller'}} className= ''>
+                    {/* <Row style={{fontSize: 'smaller'}} className= ''>
                         <Col>CEO instead of (CEO)</Col>
                         <Col style={{paddingLeft: '120px'}}>Architect Partner</Col>
                         <Col style={{paddingLeft: '120px'}}>Founding Partner</Col>
-                    </Row>
+                    </Row> */}
                 </Container>
 
                 <Container style={{paddingTop: '30px'}}>
                 {/* <Card style={{ width: '18rem' , border: '0'}}>
                     <Card.Img variant="top" src={Aziz} />
                     </Card> */}
+                    <Row style={{paddingTop: '10px', fontSize: 'larger', alignContent: 'space-between', display: 'flex', justifyContent: 'space-around'}}>
+                        <Col className="text-nama">Aziz Cahya Perdana</Col>
+                        <Col className="text-nama" style={{paddingLeft: '185px'}}>Novriansyah Yakub</Col>
+                        <Col className="text-nama" xs lg='5' style={{paddingLeft: '185px'}}>Tri Mukhlison Anugrah</Col>
+                    </Row>
+                    <Row style={{paddingTop: '10px', fontSize: 'smaller', alignContent: 'space-between', display: 'flex', justifyContent: 'space-around'}} className= 'text-nama'>
+                        <Col>CEO instead of (CEO)</Col>
+                        <Col style={{paddingLeft: '100px'}}>Architect Partner</Col>
+                        <Col style={{paddingLeft: '120px'}}>Founding Partner</Col>
+                    </Row>
                     <div style={{display: 'flex', justifyContent: 'space-between'}}>
                         <img src={Aziz} alt="" style={{width: '25%' , alignContent: 'flex-start'}} />
                         <img src={Yakub} alt="" style={{width: '25%'}} />
