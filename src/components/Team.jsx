@@ -1,5 +1,4 @@
 import { Card, Row, Col , Container, Stack} from "react-bootstrap";
-import Footer from "./Footer";
 import NavbarTop from './Navbar';
 import './Team.css';
 import Aziz from '../img/Team.png';
@@ -37,7 +36,7 @@ const Team = () => {
                     <Row style={{paddingTop: '10px', fontSize: 'larger', alignContent: 'space-between', display: 'flex', justifyContent: 'space-around'}}>
                         <Col className="text-nama">Aziz Cahya Perdana</Col>
                         <Col className="text-nama" style={{paddingLeft: '185px'}}>Novriansyah Yakub</Col>
-                        <Col className="text-nama" xs lg='5' style={{paddingLeft: '185px'}}>Tri Mukhlison Anugrah</Col>
+                        <Col className="text-nama" xs lg='5' style={{paddingLeft: '180px'}}>Tri Mukhlison Anugrah</Col>
                     </Row>
                     <Row style={{paddingTop: '10px', fontSize: 'smaller', alignContent: 'space-between', display: 'flex', justifyContent: 'space-around'}} className= 'text-nama'>
                         <Col>CEO instead of (CEO)</Col>

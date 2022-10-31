@@ -34,9 +34,9 @@ function Home(){
       </div> */}
 
       <Container>
-        <Row >
+        <Row style={{paddingTop: '50px'}}>
           <Col>
-            <img src={Gb1} style={{paddingTop: '50px' , width: '100%' , height: '90%'}} alt="" />
+            <img src={Gb1} style={{paddingTop: '35px' , width: '100%' , height: '90%'}} alt="" />
           </Col>
           <Col className='text'>
             <h1 style={{paddingLeft: '35px'}}>Nesta House</h1>
@@ -69,13 +69,14 @@ function Home(){
           <Row style={{paddingLeft: '35px' , paddingBottom: '10px'}} className='text-content-2'>
             <Col>Luas Bangunan</Col>
             <Col>Interior</Col>
-            <Col>Id Listing</Col>
+            <Col></Col>
+            
           </Row>
 
           <Row style={{paddingLeft: '35px'}} className='text-content'>
             <Col>125m2</Col>
             <Col>Tidak Berperabot</Col>
-            <Col>89711</Col>
+            <Col></Col>
           </Row>
 
 

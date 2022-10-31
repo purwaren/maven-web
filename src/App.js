@@ -10,6 +10,7 @@ import Contact from './components/Contact';
 import Team from './components/Team';
 import Product from './components/Product';
 import Product1 from './components/Product1';
+import Investor from './components/Investor';
 
 function App() {
   return ( 
@@ -22,6 +23,7 @@ function App() {
       <Route path='/about/team' element={<Team />} />
       <Route path='/product' element={<Product />} />
       <Route path='/product/1' element={<Product1 />} />
+      <Route path='/investor'  element={<Investor />} />
     </Routes>
   )
 }
