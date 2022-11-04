@@ -38,10 +38,10 @@ const Team = () => {
                         <Col className="text-nama" style={{paddingLeft: '185px'}}>Novriansyah Yakub</Col>
                         <Col className="text-nama" xs lg='5' style={{paddingLeft: '180px'}}>Tri Mukhlison Anugrah</Col>
                     </Row>
-                    <Row style={{paddingTop: '10px', fontSize: 'smaller', alignContent: 'space-between', display: 'flex', justifyContent: 'space-around'}} className= 'text-nama'>
-                        <Col>CEO instead of (CEO)</Col>
-                        <Col style={{paddingLeft: '100px'}}>Architect Partner</Col>
-                        <Col style={{paddingLeft: '120px'}}>Founding Partner</Col>
+                    <Row style={{paddingLeft: '0px', paddingTop: '0px', fontSize: 'smaller', alignContent: 'space-between', display: 'flex', justifyContent: 'space-around'}} className= 'text-nama'>
+                        <Col style={{}}>CEO</Col>
+                        <Col style={{paddingLeft: '123px'}}>Architect Partner</Col>
+                        <Col style={{paddingLeft: '124px'}}>Founding Partner</Col>
                     </Row>
                     <div style={{display: 'flex', justifyContent: 'space-between'}}>
                         <img src={Aziz} alt="" style={{width: '25%' , alignContent: 'flex-start'}} />

@@ -55,7 +55,7 @@ the low-end market.
                             </Row>
                             
                         <Row style={{paddingTop: '50px'}}>
-                            <h6 style={{fontStyle: 'italic', textAlign: 'center', marginBottom: '50px', fontWeight: '500'}}>We’d like to start helping you realize ideas through our work
+                            <h6 style={{fontStyle: 'italic',fontSize: 'large', textAlign: 'center', marginBottom: '50px', fontWeight: '500'}}>We’d like to start helping you realize ideas through our work
                             and perspective. Reach out to us using the following platforms
                             to take the first little step toward collaboration</h6>
                         </Row>

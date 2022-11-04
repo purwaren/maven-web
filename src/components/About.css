@@ -20,11 +20,12 @@
 }
 
 .peta {
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 100px;
+    padding-left: 25px;
     position: relative;
     float: right;
-    width: 50%;
+    width: 200%;
 }
 
 .text-contact{

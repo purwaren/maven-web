@@ -70,9 +70,9 @@ const Product1 = () => {
                   <Col style={{fontSize: 'smaller', fontWeight: '100', paddingTop: '10px'}}>Tidak Berperabot</Col>
                 </Row>
                 </Col>
-                <Col style={{ fontWeight: 'bold'}}>Id Listing
+                <Col>
                 <Row>
-                  <Col style={{fontSize: 'smaller', fontWeight: '100', paddingTop: '10px'}}>89711</Col>
+                  <Col></Col>
                 </Row>
                 </Col>
                 
