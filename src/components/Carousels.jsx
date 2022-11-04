@@ -12,6 +12,7 @@ const Carousels = () => {
             <Carousel>
       <Carousel.Item>
         <img
+        style={{width: '479px', height: '542px'}}
           className="d-block w-100"
           src={Gambar1}
           alt="First slide"
@@ -19,7 +20,7 @@ const Carousels = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-        style={{height: '777px'}}
+        style={{width: '479px', height: '542px'}}
           className="d-block w-100"
           src={Gambar2}
           alt="Second slide"
@@ -28,7 +29,7 @@ const Carousels = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          style={{height: '777px'}}
+          style={{width: '479px' ,height: '542px'}}
           className="d-block w-100"
           src={Gambar3}
           alt="Third slide"

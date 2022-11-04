@@ -1,7 +1,6 @@
 import { Form, Row, Col , Container, Button} from "react-bootstrap";
-import Footer from "./Footer";
 import NavbarTop from './Navbar';
-import peta from '../img/peta.png'
+import peta from '../img/Maps.png'
 import './About.css';
 
 
@@ -12,37 +11,30 @@ const Contact = () => {
             <NavbarTop />
             <Container Fluid>
                 <Row>
-                    <Col xs={2} className='text-contact'> <p>Kantor Pusat</p>  </Col>
-
-                    <Col  xs={4} className='text-contact'>
+                    <Col xs={8}>
+                <Row>
+                    <Col xs={4} className='text-contact'> <p>Kantor Pusat</p></Col>
+                    <Col  xs={6} className='text-contact'>
                     <p>Jl. Perkici 14, Blok EB 5 No. 15 -17,Pondok Ranji,Kec. Ciputat Timur,Kota Tangerang Selatan,Banten 15412</p>
                     </Col>
                 </Row>
 
                 <Row style={{marginTop: '-90px'}}>
-                    <Col xs={2} className='text-contact'> <p>Telephone</p>  </Col>
+                    <Col xs={4} className='text-contact'> <p>Telephone</p>  </Col>
 
-                    <Col  xs={4} className='text-contact'>
+                    <Col  xs={3} className='text-contact'>
                     <p>+62 81242421985</p>
                     </Col>
                 </Row>
                 <Row style={{marginTop: '-80px'}}>
-                    <Col xs={2} className='text-contact'> <p>Email</p>  </Col>
+                    <Col xs={4} className='text-contact'> <p>Email</p>  </Col>
 
                     <Col  xs={4} className='text-contact'>
                     <p>info@mavenindonesia.com</p>
                     </Col>
-                </Row>
-            </Container>
 
-            <div>
-            <img src={peta} className='peta' alt="" />
-            </div>
-            
-                
-                <Container style={{paddingTop: '40px',paddingBottom: '100px'}}>
                 <Row>
-                <Col xs={10}>
+                <Col xs={9} style={{paddingBottom: '50px'}}>
                     <Form>
                             <Form.Group  className="mb-3" controlId="formBasicEmail">
                                 <Form.Control style={{backgroundColor: '#D9D9D9'}} type="text" placeholder="First name*" />
@@ -64,11 +56,20 @@ const Contact = () => {
                                 Send
                             </Button>
                         </Form>
+                        
                     </Col>
                     </Row>
-                </Container>
+                    
                 
-        
+                    </Row>
+                    </Col>
+                    <Col xs={0} style={{paddingLeft: '100px'}}>
+                    <div style={{paddingTop: '25px'}}>
+                    <img src={peta} className='peta' alt=""/>
+                    </div>
+                    </Col>
+                    </Row>
+                </Container>        
         </div>
     )
 }

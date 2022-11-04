@@ -1,0 +1,12 @@
+.text-nama {
+    font-family: 'Public Sans';
+    color: #527A6F;
+    font-weight: bolder;
+}
+
+.text-inbox{
+    margin-right: 0px;
+    font-weight: lighter;
+    font-size: small;
+
+}

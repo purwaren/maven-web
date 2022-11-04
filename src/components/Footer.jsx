@@ -8,7 +8,7 @@ function Footer(){
     <Navbar bg='myBg' expand="lg">
         <Container style={{paddingTop: '25px'}}>
           <Row>
-            <Col xs={1}>
+            <Col xs={2}>
               <Navbar.Text><p className='warna'>Kantor pusat</p></Navbar.Text>
             </Col>
             <Col xs={3}>
@@ -22,7 +22,7 @@ function Footer(){
               </Navbar.Text>
             </Col>
           
-            <Col>
+            <Col xs={1}>
               <ul className='warna' >
                 <li>Telephone</li>
                 <li>E-Mail</li>
@@ -30,7 +30,7 @@ function Footer(){
               {/* <Navbar.Text><p className='warna'>Telephone</p></Navbar.Text>
               <Navbar.Text ><p className='warna'  >E-Mail</p></Navbar.Text> */}
             </Col>
-            <Col>
+            <Col xs={2}>
               {/* <Navbar.Text><p className='warna'>+62 8170141234</p></Navbar.Text>
               <Navbar.Text><p className='warna'>info@mavenindonesia.com</p></Navbar.Text> */}
               <ul className='warna' >
