@@ -1,11 +1,11 @@
 import {  Row, Col , Container, Button} from "react-bootstrap";
 import NavbarTop from './Navbar';
-import Gb1 from '../img/Product.png';
-import Gb2 from '../img/Product2.png';
-import Gb3 from '../img/Product3.png';
-import Gb4 from '../img/Product4.png';
+import Gb1 from '../img/Product.webp';
+import Gb2 from '../img/Product2.webp';
+import Gb3 from '../img/Product3.webp';
+import Gb4 from '../img/Product4.webp';
 import './Product.css';
-import Arrow from '../img/Arrow.png';
+import Arrow from '../img/Arrow.webp';
 import { useNavigate } from "react-router-dom";
 
 

@@ -1,12 +1,12 @@
 import { Card, Row, Col , Container, Stack} from "react-bootstrap";
 import NavbarTop from './Navbar';
 import './Team.css';
-import Aziz from '../img/Team.png';
-import Yakub from '../img/Team2.png';
-import Tri from '../img/Team3.png';
+import Aziz from '../img/Team.webp';
+import Yakub from '../img/Team2.webp';
+import Tri from '../img/Team3.webp';
 import {Link} from 'react-router-dom';
-import Arrow from '../img/Arrow.png';
-import Line from '../img/Line.png';
+import Arrow from '../img/Arrow.webp';
+import Line from '../img/Line.webp';
 
 
 const Team = () => {

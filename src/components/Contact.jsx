@@ -1,6 +1,6 @@
 import { Form, Row, Col , Container, Button} from "react-bootstrap";
 import NavbarTop from './Navbar';
-import peta from '../img/Maps.png'
+import peta from '../img/Maps.webp'
 import './About.css';
 
 

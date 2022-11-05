@@ -1,10 +1,9 @@
 import { Card, Row, Col , Container, Stack} from "react-bootstrap";
-import Footer from "./Footer";
 import NavbarTop from './Navbar';
-import Gb5 from '../img/Mission.png';
+import Gb5 from '../img/Mission.webp';
 import './About.css';
-import Arrow from '../img/Arrow.png';
-import Line from '../img/Line.png';
+import Arrow from '../img/Arrow.webp';
+import Line from '../img/Line.webp';
 import {Link} from 'react-router-dom';
 
 const Mission = () => {

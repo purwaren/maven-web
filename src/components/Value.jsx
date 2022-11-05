@@ -1,10 +1,9 @@
 import { Card, Row, Col , Container, Stack} from "react-bootstrap";
-import Footer from "./Footer";
 import NavbarTop from './Navbar';
-import Gb6 from '../img/Value.png';
+import Gb6 from '../img/Value.webp';
 import './About.css';
-import Arrow from '../img/Arrow.png';
-import Line from '../img/Line.png';
+import Arrow from '../img/Arrow.webp';
+import Line from '../img/Line.webp';
 import {Link} from 'react-router-dom';
 
 const Value = () => {
