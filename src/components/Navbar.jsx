@@ -1,6 +1,6 @@
 import { Nav , Navbar , Container, Card , Button} from 'react-bootstrap';
 import './HomeStyle.css';
-import Logo from '../img/Logo.png';
+import Logo from '../img/Logo.webp';
 import { Router , Link , NavLink } from 'react-router-dom';
 import {useState} from 'react';
 

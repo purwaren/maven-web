@@ -1,12 +1,10 @@
 import { Card, Row, Col , Container, Stack} from "react-bootstrap";
-import Footer from "./Footer";
 import NavbarTop from './Navbar';
-import Gb4 from '../img/Vission.png';
+import Gb4 from '../img/Vission.webp';
 import './About.css';
-import Arrow from '../img/Arrow.png';
-import Line from '../img/Line.png';
+import Arrow from '../img/Arrow.webp';
+import Line from '../img/Line.webp';
 import {Link , Route} from 'react-router-dom';
-import Mission from './Mission';
 
 const About = () => {
 

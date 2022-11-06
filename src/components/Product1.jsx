@@ -1,8 +1,8 @@
 import {  Carousel, Col , Container, Row} from "react-bootstrap";
 import NavbarTop from './Navbar';
-import Gb1 from '../img/ProductIn.png';
-import Gb2 from '../img/ProductIn2.png';
-import Gb3 from '../img/ProductIn3.png';
+import Gb1 from '../img/ProductIn.webp';
+import Gb2 from '../img/ProductIn2.webp';
+import Gb3 from '../img/ProductIn3.webp';
 import './Product1.css'
 
 const Product1 = () => {
@@ -58,7 +58,7 @@ const Product1 = () => {
             </Container>
             <Container style={{paddingBottom: '100px', paddingTop: '25px'}}>
               <Row className="text-nama">
-                <Col xs={6} style={{fontSize: 'smaller'}}>Nesta, a compact and comfortable living space in the heart of the city that will help you to obtain work-life balance. We construct exceptional facilities to raise the worth of your living value as well as guarantee security for each residence. Nesta is supported by the number of features surrounding the environment and within the houses.</Col>
+                <Col xs={6} style={{fontSize: 'smaller', fontWeight: 'normal'}}>Nesta, a compact and comfortable living space in the heart of the city that will help you to obtain work-life balance. We construct exceptional facilities to raise the worth of your living value as well as guarantee security for each residence. Nesta is supported by the number of features surrounding the environment and within the houses.</Col>
                 <Col xs={1}> </Col>
                 <Col style={{ fontWeight: 'bold'}}>Luas Bangunan
                 <Row>

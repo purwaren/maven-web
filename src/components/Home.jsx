@@ -1,19 +1,19 @@
 import { Container, Col, Row, Carousel, Button} from 'react-bootstrap';
 import './HomeStyle.css';
-import Depan from '../img/Hal-depan-baru.png';
-import Depan2 from '../img/Depan2.png';
-import Depan3 from '../img/Depan3.png';
-import Gb1 from '../img/gambar-depan-new.png';
+import Depan from '../img/Hal-depan-baru.webp';
+import Depan2 from '../img/Depan2.webp';
+import Depan3 from '../img/Depan3.webp';
+import Gb1 from '../img/gambar-depan-new.webp';
 import Footer from './Footer';
 import NavbarTop from './Navbar';
 import Carousels from './Carousels';
-import Peta from '../img/Maps.png';
-import Jalan from '../img/Jalan.png';
-import Rumahsakit from '../img/Rumah-sakit.png';
-import Mall from '../img/supermarket.png';
-import Lippo from '../img/Lippo.png';
-import Sekolah from '../img/sekolah.png';
-import Bandara from '../img/bandara.png';
+import Peta from '../img/Maps.webp';
+import Jalan from '../img/Jalan.webp';
+import Rumahsakit from '../img/Rumah-sakit.webp';
+import Mall from '../img/supermarket.webp';
+import Lippo from '../img/Lippo.webp';
+import Sekolah from '../img/sekolah.webp';
+import Bandara from '../img/bandara.webp';
 
 
 

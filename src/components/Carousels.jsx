@@ -1,8 +1,8 @@
 import { Carousel} from 'react-bootstrap';
 import './HomeStyle.css';
-import Gambar1 from '../img/Carousel.png';
-import Gambar2 from '../img/Carousel2.png';
-import Gambar3 from '../img/Carousel3.png';
+import Gambar1 from '../img/Carousel.webp';
+import Gambar2 from '../img/Carousel2.webp';
+import Gambar3 from '../img/Carousel3.webp';
 
 
 

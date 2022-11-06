@@ -1,8 +1,8 @@
 import { Card, Row, Col , Container} from "react-bootstrap";
 import NavbarTop from './Navbar';
-import investor from '../img/Collab.png';
+import investor from '../img/Collab.webp';
 import './Investor.css';
-import garis from '../img/Line-miring.png';
+import garis from '../img/Line-miring.webp';
 
 const Investor = () => {
     return (
