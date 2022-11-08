@@ -68,7 +68,7 @@
 
 .text-content {
     color: #527A6F;
-    font-size: large;
+    font-size: medium;
     font-family: 'Public Sans';
     padding-bottom: 50px;}
 
@@ -91,7 +91,7 @@
     color: #527A6F;
     font-size: medium;
     font-family: 'Public Sans';
-    padding-bottom: 50px;}
+    }
 /* 
 .card-gambar {
     display: flex;

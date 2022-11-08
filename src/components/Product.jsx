@@ -23,8 +23,8 @@ const Product = () => {
             <Container>
                 <div style={{paddingBottom: '50px'}}>
                     <Row style={{ paddingTop: '50px'}}>
-                        <Col> <img src={Gb1} style={{width: '100%'}}  alt="" />
-                       
+                        <Col style={{paddingTop: '20px'}}> 
+                        <img src={Gb1} style={{width: '100%'}}  alt="" />
                             <Col xs={12} className='text-nama' style={{backgroundColor: '#EBE4DA'}} >
                                 <p style={{paddingTop: '25px', paddingBottom: '25px'}}>Nesta House</p>
                                 <div style={{ paddingLeft: '250px',paddingTop: '25px'}}>
@@ -36,7 +36,7 @@ const Product = () => {
                     
                         </Col>
 
-                        <Col> 
+                        <Col style={{paddingTop: '20px'}}> 
                             <img src={Gb2} style={{width: '100%'}}  alt="" /> 
                             <Col xs={12} className='text-nama' style={{backgroundColor: '#EBE4DA'}} >
                                 <p style={{paddingTop: '25px', paddingBottom: '25px'}}>Cipayung Project (Coming soon)</p>
@@ -49,8 +49,8 @@ const Product = () => {
                         </Col>
                     </Row>
                     <Row style={{ paddingTop: '50px', paddingBottom: '0px'}}>
-                        <Col> <img src={Gb3} style={{width: '100%'}}  alt="" />
-                       
+                        <Col style={{paddingTop: '20px'}}> 
+                        <img src={Gb3} style={{width: '100%'}}  alt="" />
                             <Col xs={12} className='text-nama' style={{backgroundColor: '#EBE4DA'}} >
                                 <p style={{paddingTop: '25px', paddingBottom: '25px'}}>Property Development</p>
                                 <div style={{ paddingLeft: '170px',paddingTop: '25px'}}>
@@ -62,7 +62,7 @@ const Product = () => {
                     
                         </Col>
 
-                        <Col> 
+                        <Col style={{paddingTop: '20px'}}> 
                             <img src={Gb4} style={{width: '100%'}}  alt="" /> 
                             <Col xs={12} className='text-nama' style={{backgroundColor: '#EBE4DA'}} >
                                 <p style={{paddingTop: '25px', paddingBottom: '25px'}}>Asset Management</p>
