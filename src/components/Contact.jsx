@@ -9,7 +9,7 @@ const Contact = () => {
     return (
         <div>
             <NavbarTop />
-            <Container Fluid>
+            <Container fluid style={{paddingLeft: '50px', paddingRight: '50px'}}>
                 <Row>
                     <Col xs={8}>
                 <Row>

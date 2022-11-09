@@ -1,4 +1,4 @@
-import { Card, Row, Col , Container, Stack} from "react-bootstrap";
+import {Row, Col , Container, Stack} from "react-bootstrap";
 import NavbarTop from './Navbar';
 import './Team.css';
 import Aziz from '../img/Team.webp';
@@ -15,53 +15,58 @@ const Team = () => {
             <div style={{backgroundColor: '#EBE4DA' }}>
                 <NavbarTop />
 
-                <Container className="text-nama">
-                    {/* <Row style={{paddingTop: '50px', fontSize: 'larger', alignContent: 'space-between', display: 'flex', justifyContent: 'space-around'}}>
-                        <Col>Aziz Cahya Perdana</Col>
-                        <Col style={{paddingLeft: '120px'}}>Novriansyah Yakub</Col>
-                        <Col xs lg='5' style={{paddingLeft: '120px'}}>Tri Mukhlison Anugrah</Col>
-                    </Row> */}
-
-                    {/* <Row style={{fontSize: 'smaller'}} className= ''>
-                        <Col>CEO instead of (CEO)</Col>
-                        <Col style={{paddingLeft: '120px'}}>Architect Partner</Col>
-                        <Col style={{paddingLeft: '120px'}}>Founding Partner</Col>
-                    </Row> */}
-                </Container>
-
-                <Container style={{paddingTop: '30px'}}>
-                {/* <Card style={{ width: '18rem' , border: '0'}}>
-                    <Card.Img variant="top" src={Aziz} />
-                    </Card> */}
-                    <Row style={{paddingTop: '10px', fontSize: 'larger', alignContent: 'space-between', display: 'flex', justifyContent: 'space-around'}}>
-                        <Col className="text-nama">Aziz Cahya Perdana</Col>
-                        <Col className="text-nama" style={{paddingLeft: '185px'}}>Novriansyah Yakub</Col>
-                        <Col className="text-nama" xs lg='5' style={{paddingLeft: '180px'}}>Tri Mukhlison Anugrah</Col>
-                    </Row>
-                    <Row style={{paddingLeft: '0px', paddingTop: '0px', fontSize: 'smaller', alignContent: 'space-between', display: 'flex', justifyContent: 'space-around'}} className= 'text-nama'>
-                        <Col style={{}}>CEO</Col>
-                        <Col style={{paddingLeft: '123px'}}>Architect Partner</Col>
-                        <Col style={{paddingLeft: '124px'}}>Founding Partner</Col>
-                    </Row>
-                    <div style={{display: 'flex', justifyContent: 'space-between'}}>
-                        <img src={Aziz} alt="" style={{width: '25%' , alignContent: 'flex-start'}} />
-                        <img src={Yakub} alt="" style={{width: '25%'}} />
-                        <img src={Tri} alt="" style={{width: '25%'}} />
-                    </div>
-                    <Row style={{ fontSize: 'larger', alignContent: 'space-between', display: 'flex', justifyContent: 'space-around'}}>
-                        <Col className= 'text'><p>A passionate and experienced figure who has spent the previous
+                <Container fluid style={{paddingTop: '25px'}}>
+                    <Row style={{paddingBottom: '10px' ,paddingTop: '10px', fontSize: 'medium', alignContent: 'space-between', display: 'flex', justifyContent: 'space-around'}}>
+                        <Col>
+                        <div>
+                        <Col className="text-nama" style={{fontWeight: '400'}}>Aziz Cahya Perdana</Col>
+                        <Col className="text-nama" style={{fontSize: 'smaller', fontWeight: '400'}}>CEO</Col>
+                        <Col className="text-nama">
+                        <img src={Aziz} alt="" style={{width: '80%' , alignContent: 'flex-start', }} />
+                        </Col>
+                        <Col xs={10} className="text-nama" style={{fontSize: '12px', textAlign: 'justify' ,paddingTop: '15px', fontWeight: '400'}}>
+                        A passionate and experienced figure who has spent the previous
                         seven years working in the real estate industry and completed more than 250 landed houses as well as 200 apartment units. 
                         He has completed numerous significant projects - from planning, construction, and marketing, in landed houses, condos, as well
                         as apartments.
-                        </p></Col>
-                        <Col className= 'text' style={{paddingLeft: '120px'}}><p>After earning his master's degree from Trisakti University,
+
+                        </Col>
+                        </div>
+                        </Col>
+                        <Col>
+                        <div>
+                        <Col className="text-nama" style={{fontWeight: '400'}}>Novriansyah Yakub</Col>
+                        <Col className="text-nama" style={{fontSize: 'smaller', fontWeight: '400'}}>Architect Partner</Col>
+                        <Col className="text-nama">
+                        <img src={Yakub} alt="" style={{width: '80%' , alignContent: 'flex-start' ,fontWeight: '400'}} />
+                        </Col>
+                        <Col xs={10} className="text-nama" style={{fontSize: '12px', textAlign: 'justify', paddingTop: '15px', fontWeight: '400'}}>
+                        After earning his master's degree from Trisakti University,
                         Riri established his design and architecture firm, Atelier Riri. A man with a long list of honors, including Bintaro Design District 2018, Arch ID 2020, Daikin Designer Awards 2020. He also spent his 
-                        days giving lectures at prestigious universities.</p></Col>
-                        <Col className= 'text' style={{paddingLeft: '120px'}}>A trustworthy banker with seven years of promising experience in syariah banking. He was successful in creating Fundex.id, a platform that enables small enterprises to receive funding through equity-and loan-based schemes and is formally supported by OJK.</Col>
+                        days giving lectures at prestigious universities.
+
+                        </Col>
+                        </div>
+                        </Col>
+                        <Col>
+                        <div>
+                        <Col className="text-nama" style={{fontWeight: '400'}}>Tri Mukhlison Anugrah</Col>
+                        <Col className="text-nama" style={{fontSize: 'smaller', fontWeight: '400'}}>Founding Partner</Col>
+                        <Col className="text-nama">
+                        <img src={Tri} alt="" style={{width: '80%' , alignContent: 'flex-start'}} />
+                        </Col>
+                        <Col xs={10} className="text-nama" style={{fontSize: '12px', textAlign: 'justify', paddingTop: '15px', fontWeight: '400'}}>
+                        A trustworthy banker with seven years of promising experience in syariah banking. He was successful in creating Fundex.id, a platform that enables small enterprises to receive funding through equity-and loan-based schemes and is formally supported by OJK.
+
+                        </Col>
+                        </div>
+                        </Col>
                     </Row>
+                    
+
                 </Container>
             </div>
-                <Container>
+                <Container fluid style={{paddingLeft: '50px', paddingRight: '50px'}}>
                 <Row style={{ textAlign: 'center', paddingTop: '50px', height: '50%' }}>
                         <Col xs lg='2'>
                             <Stack gap={4}>

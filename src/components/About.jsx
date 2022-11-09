@@ -21,7 +21,7 @@ const About = () => {
                     </Card> 
 
                     {/* <img src={Gb4} alt="" /> */}
-                <Container>
+                <Container fluid style={{paddingLeft: '50px', paddingRight: '50px'}}>
                     <Row style={{ textAlign: 'center', paddingTop: '50px', height: '50%' }}>
                         <Col xs lg='2'>
                             <Stack gap={4}>

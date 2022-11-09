@@ -6,9 +6,9 @@ function Footer(){
     return( 
     <div className='Footer-bar'>
     <Navbar bg='myBg' expand="lg">
-        <Container style={{paddingTop: '25px'}}>
+        <Container fluid style={{paddingTop: '25px'}}>
           <Row>
-            <Col xs={2}>
+            <Col xs={1}>
               <Navbar.Text><p className='warna'>Kantor pusat</p></Navbar.Text>
             </Col>
             <Col xs={3}>
@@ -23,27 +23,20 @@ function Footer(){
             </Col>
           
             <Col xs={1}>
-              <ul className='warna' >
+              <ul className='warna'>
                 <li>Telephone</li>
                 <li>E-Mail</li>
               </ul>
-              {/* <Navbar.Text><p className='warna'>Telephone</p></Navbar.Text>
-              <Navbar.Text ><p className='warna'  >E-Mail</p></Navbar.Text> */}
             </Col>
-            <Col xs={2}>
-              {/* <Navbar.Text><p className='warna'>+62 8170141234</p></Navbar.Text>
-              <Navbar.Text><p className='warna'>info@mavenindonesia.com</p></Navbar.Text> */}
-              <ul className='warna' >
+            <Col xs={3} style={{paddingLeft: '25px'}}>
+              <ul className='warna'>
                 <li>+62 8170141234</li>
                 <li>info@mavenindonesia.com</li>
               </ul>
             </Col>
-            <Col>
-              <Navbar.Text><p className='warna'>Pencarian</p></Navbar.Text>
-            </Col>
+            <Col xs={1}></Col>
             <Col xs={3}>
-            
-              <Form className="d-flex">
+              <Navbar.Text><p className='warna'>Pencarian <Form className="d-flex">
               <Form.Control
                 style={{backgroundColor: '#EBE4DA'}}
                 type="search"
@@ -51,19 +44,12 @@ function Footer(){
                 aria-label="Search"
               />
               <Button  style={{ backgroundColor: '#B8B6B6', color: '#EBE4DA' }} variant="outline-none">Go</Button>
-          </Form>
+              </Form></p>
+              </Navbar.Text>
             </Col>
-          </Row>
+       
+          </Row> 
         </Container>
-
-{/* 
-        <Container>
-            <Navbar.Text>
-                <p>Testtt</p>
-            </Navbar.Text>
-        </Container> */}
-
-        
       </Navbar>
     </div>
     );
