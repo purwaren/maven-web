@@ -1,0 +1,101 @@
+/* Handphone dan layar dibawah 768 */
+ @media (max-width: 480px) {
+
+  .div-tengah {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+  }
+
+  .div-tengah .responsive {
+    display: inline;
+    padding-left: 50px;
+   
+  }
+
+  .barisan {
+    margin-top: -30px;
+    display: flex;
+    padding-left: 50px;
+    text-align: justify;
+
+  }
+
+ .barisan .text-footer {
+    display: flex;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 15px;
+    }
+
+
+   .barisan .text-footer-sebelah {
+    display: flex;
+    font-size: 10px;
+    
+   } 
+
+   .barisan-responsive2 .text-footer-sebelah2 {
+    display: inline-flex;
+    
+    font-size: 12px;
+   } 
+
+
+   
+.barisan-responsive {
+  
+  display: inline;
+  visibility: visible;
+}
+
+  
+.barisan-responsive .text-footer-sebelah2 {
+  padding-top: 20px;
+  padding-left: 120px;
+}
+
+.barisan-button{
+  display: flex;
+  width: 225px;
+  padding-left: 25px;
+  margin-top: -50px;
+}
+
+.barisan-pencarian{
+  display: flex;
+  padding-left: 50px;
+  margin-top: -100px;
+}
+
+
+.barisan .text-alamat {
+  padding-right: 0px;
+  margin-top: -20px;
+  margin-right: -50px;
+  margin-left: -30px;
+}
+
+.barisan-responsive2 {
+  
+  margin-top: -25px;
+  margin-left: -15px;
+  width: 0px;
+  height: 0px;
+  
+  }
+  .barisan-responsive2 .text-footer-sebelah {
+    padding-top: 20px;
+  }
+
+  .button-responsive {
+    margin-top: -100px;
+  }
+
+
+  .barisan-tidak-responsive {
+    visibility: hidden;
+  }
+}

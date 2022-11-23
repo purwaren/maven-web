@@ -12,7 +12,9 @@ import Product from './components/Product';
 import Product1 from './components/Product1';
 import Investor from './components/Investor';
 
+
 function App() {
+
   return ( 
     <Routes>
       <Route path='/' element={<Home />} />
