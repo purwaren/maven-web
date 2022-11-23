@@ -58,31 +58,39 @@
 }
 
 .text-2 {
+    text-align: center;
+    font-size: 34px;
+    font-style: italic;
     padding-top: 50px;
     color: #527A6F;
-    text-align: center;
+    text-align: justify;
     font-family: 'Public Sans';
-    padding-bottom: 50px;
+    padding-bottom: 70px;
    
 }
 
 .text-content {
     color: #527A6F;
-    font-size: medium;
+    font-size: 19px;
     font-family: 'Public Sans';
     padding-bottom: 50px;}
 
+    @media screen and (max-width: 768px) {
+        .text-content{
+            font-size: larger;
+        }
+    }
     
 .text-content-3 {
     color: #527A6F;
-    font-size: small;
+    font-size: smaller;
     font-family: 'Public Sans';
 }
 
 
 .text-content-4 {
     color: #527A6F;
-    font-size: medium;
+    font-size: 15px;
     font-family: 'Public Sans';
 }
 
@@ -92,25 +100,72 @@
     font-size: medium;
     font-family: 'Public Sans';
     }
-/* 
-.card-gambar {
-    display: flex;
-    align-items: center;
-    padding: auto;
-    margin: auto;
-} */
 
 
-.text-card-judul {
-    font-weight: bold;
-    color: #527A6F;
-    font-family: 'Public Sans';
+.media-e {
+    padding-bottom: 10px;
+    font-size: 23px;
 }
 
-.text-card {
-    text-align: justify;
+.gambar-nesta {
+    width: 90%;
+ 
+}
+
+.judul-nesta {
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'Public Sans';
+    color: #527A6F;
+}
+
+.media-tulisankecil {
+    margin-top: -25px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.media-q {
+    padding-bottom: 0px;
+    font-size: 32px;
+}
+
+.center-atas {
+    font-family: 'Public Sans';
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+}
+
+.gambar-kecil {
+    margin-top: -50px;
+    margin-left: -30px;
+    
+    width: 24%;
+}
+
+.text-kecil {
     font-size: small;
-    color: #527A6F;
-    font-family: 'Public Sans';
-
+    padding-left: 80px;
+    margin-top: -80px;
+    text-align: justify;
+    font-weight: bold;
+    
 }
+
+.gambar-peta-responsive {
+    width: 0%;
+}
+
+.gambar-peta {
+    width: 105%;
+}
+
+.col-gambar-kecil {
+    padding-bottom: 45px;
+}
+
+
+

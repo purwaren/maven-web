@@ -1,7 +1,7 @@
-import { Nav , Navbar , Container, Card , Button} from 'react-bootstrap';
+import { Nav , Navbar , Container} from 'react-bootstrap';
 import './HomeStyle.css';
 import Logo from '../img/Logo.webp';
-import { Router , Link , NavLink } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import {useState} from 'react';
 
 
@@ -29,8 +29,7 @@ const NavbarTop = () => {
 
   return (
     <Navbar bg='myBg' expand="lg">
-    <Container>
-      {/* <Navbar.Brand href="/"><img src={Logo} alt="" /></Navbar.Brand> */}
+    <Container style={{paddingTop: '5px', paddingBottom: '5px'}}>
       <Navbar.Brand> <Link to='/'> <img src={Logo} style={{width: '70%'}} alt="" /> </Link> </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className='justify-content-end' id="basic-navbar-nav">

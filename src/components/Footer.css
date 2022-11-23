@@ -11,3 +11,97 @@
     font-size: small;
     list-style-type: none;
 }
+
+.div-tengah {
+    display: flex;
+}
+
+.barisan{
+    
+    width: 200px;
+    height: 100px;
+    padding-top:20px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.barisan-pencarian{
+    
+    width: 200px;
+    height: 100px;
+    padding-top:20px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.barisan-button{
+    
+    width: 200px;
+    height: 100px;
+    padding-top:20px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+
+.barisan-tidak-responsive{
+    
+    width: 200px;
+    height: 100px;
+    padding-top:20px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.text-footer {
+    text-align: start;
+    font-size: 12px;
+}
+
+.text-alamat {
+    padding-right: 5px;
+    margin-right: -70px;
+}
+
+
+.div-tengah .responsive {
+    display: flex;
+}
+
+.text-footer-sebelah {
+    padding-left: 200px;
+    text-align: start;
+    font-size: 12px;
+}
+
+
+.text-footer-sebelah2 {
+    padding-left: 100px;
+    text-align: start;
+    font-size: 12px;
+}
+
+.barisan-responsive2 {
+    
+    width: 200px;
+    height: 100px;
+    padding-top:20px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.barisan-responsive {
+    display: none;
+    visibility: hidden;
+    width: 0%;
+}
+
+/* .Footer-bar-responsive{
+    width: 0%;
+    visibility: hidden;
+} */

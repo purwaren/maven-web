@@ -33,6 +33,7 @@ const Team = () => {
                         </Col>
                         </div>
                         </Col>
+                        
                         <Col>
                         <div>
                         <Col className="text-nama" style={{fontWeight: '400'}}>Novriansyah Yakub</Col>
@@ -66,7 +67,7 @@ const Team = () => {
 
                 </Container>
             </div>
-                <Container fluid style={{paddingLeft: '50px', paddingRight: '50px'}}>
+                <Container fluid='xs' style={{paddingLeft: '50px', paddingRight: '50px'}}>
                 <Row style={{ textAlign: 'center', paddingTop: '50px', height: '50%' }}>
                         <Col xs lg='2'>
                             <Stack gap={4}>
@@ -87,10 +88,8 @@ const Team = () => {
                                 <h6 className="text-tengah" >Team<img src={Arrow} className='arrow' alt="" style={{marginLeft: '85px'}}/></h6>
                             </Link>
                             <img src={Line} alt=""/>
-
                             </Stack>
                         </Col>
-
                         <Col className="text-tengah" style={{ textAlign: 'justify' }}>Our team consists of passionate and skillful people. We connect the dots to provide more livable space for society. There is no doubt that every work will be completed by experts and produce outstanding results. Every project receives the same amount of care, attention, and expertise from us. 
                         </Col>
 

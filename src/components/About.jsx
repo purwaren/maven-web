@@ -24,7 +24,7 @@ const About = () => {
                 <Container fluid style={{paddingLeft: '50px', paddingRight: '50px'}}>
                     <Row style={{ textAlign: 'center', paddingTop: '50px', height: '50%' }}>
                         <Col xs lg='2'>
-                            <Stack gap={4}>
+                            <Stack gap={3}>
                             <img src={Line} alt="" />
                             <Link to='' style={{textDecoration: 'none'}}>
                                 <h6 className="text-tengah" >Vission<img src={Arrow} className='arrow' alt="" style={{marginLeft: '75px'}} /></h6>
@@ -45,19 +45,20 @@ const About = () => {
 
                             </Stack>
                         </Col>
-
-                        <Col className="text-tengah" style={{ textAlign: 'justify' }}>Our main vision is to be a world class artisan real estate company. Starting 
+                        <Col xs={1}></Col>
+                        <Col xs={3} className="text-tengah" style={{ textAlign: 'justify', fontSize: 'small' }}>Our main vision is to be a world class artisan real estate company. Starting 
                             from the smallest step, we believe that courage, consistency, and passion 
                             can lead us to a bigger path. This means to keep evolving in many elements 
                             in order to pursue a better version of us.'
                         </Col>
-
-                        <Col className="text-tengah" style={{ textAlign: 'justify' }}>
+                        
+                        <Col className="text-tengah" style={{ textAlign: 'justify',fontSize: 'small' }}>
                         The bigger the path the easier it 
                         gets to introduce our work to the community. We also hope to create a wide 
                         range of possibilities with this vision. As a result, our business won't follow 
                         the same path; instead, we insist on developing new products.
                         </Col>
+                        
                     </Row>
                 </Container>
                 </div>
