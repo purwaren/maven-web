@@ -1,4 +1,43 @@
-/* Handphone dan layar dibawah 768 */
+@media (max-width: 480px){
+  .Footer-bar-responsive {
+    display: flex;
+    background-color: #527A6F;
+    margin-top: 50px;
+    padding-top: 0px;
+    visibility: visible;
+  }
+
+  .text-footer-responsive {
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Public Sans';
+    color: #EBE4DA; 
+    font-size: 10px;
+  }
+
+  .bawah-banget {
+    display: flex;
+    justify-content: center;
+  }
+
+  .responsive-button {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Footer-bar-responsive  {
+    width: auto;
+  }
+
+  .Footer-bar {
+    display: none;
+  }
+}
+
+
+/* 
  @media (max-width: 480px) {
 
   .div-tengah {
@@ -98,4 +137,4 @@
   .barisan-tidak-responsive {
     visibility: hidden;
   }
-}
+} */

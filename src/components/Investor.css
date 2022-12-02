@@ -18,3 +18,7 @@
     font-size: larger;
     font-style: italic;
 }
+
+.investor-responsive {
+    display: none;
+}

@@ -20,9 +20,7 @@
       return( 
 
       
-      <div style={{display: '1'}}>
-      
-          
+      <div>
         <NavbarTop />
         <div>
           <CarouselHome />
@@ -55,7 +53,7 @@
           </div>
         </div>
       
-        <div className='tengah' style={{paddingLeft: '50px', paddingRight: '50px'}}>
+        <div className='tengah-home' style={{paddingLeft: '50px', paddingRight: '50px'}}>
           <Container>
             <div style={{display: 'flex',paddingTop: '80px'}}>
             <Row className='responsive-nesta'>

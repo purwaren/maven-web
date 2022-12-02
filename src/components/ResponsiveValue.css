@@ -1,0 +1,61 @@
+@media screen and (max-width: 480px){
+    .tengah {
+        display: none;
+        visibility: hidden;
+    }
+
+    .tengah .text-tengah {
+        display: flex;
+        text-align: justify;
+        font-size: 10px;
+    }
+
+    .garis-stack{
+        margin-top: -25px;
+        
+    }
+    .col-stack {
+        margin-left: -50px;
+        width: 0%;
+    }
+
+    .responsive {
+        width: 0;
+        visibility: hidden;
+    }
+    .responsive-stack {
+        display: flex;
+        visibility: visible;
+        padding-top: 30px;
+    }
+
+    .stack-col{
+        width: 100%;
+        display: flex;
+        
+    }
+
+    .garis-stack{
+        width: 100%;
+    }
+
+    
+    .responsive-kolom-value{
+        display: flex;
+        visibility: visible;
+        align-items: center;
+    }
+
+    .responsive-kolom-value .row-2-tengah {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .text-bawah-res {
+    color: #527A6F;
+    font-family: 'Public Sans';
+    text-align: center;
+    font-size: 10px;
+    }
+
+}
