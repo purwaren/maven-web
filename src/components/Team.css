@@ -4,9 +4,31 @@
 
 }
 
+.atas-team-responsive {
+    display: none;
+    visibility: hidden;
+}
+
 .text {
     padding-top: 25px;
     font-size: small;
     font-family: 'Public Sans';
     color: #527A6F;
+}
+.elemen-tengah-team .col-stack{
+    width: 15%;
+}
+
+.tengah-team {
+    display: flex;
+}
+
+.tengah-team .elemen-tengah-team {
+    display: flex;
+    padding-top: 50px;
+    justify-content: start;
+}
+
+.responsive-kolom-team {
+    display: none;
 }

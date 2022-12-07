@@ -3,7 +3,7 @@
     color: #EBE4DA;
 }
 
-.tengah {
+.tengah-misi {
     display: flex;
 }
 
@@ -22,6 +22,11 @@
     visibility: hidden;
 }
 
+.responsive-kolom-mission {
+    padding-left: 0px;
+    padding-right: 0px;
+    visibility: hidden;
+}
 
 .elemen-tengah .col-stack{
     width: 15%;
@@ -39,16 +44,12 @@
     border-radius: 20%;
 }
 
-.responsive-kolom-bawah {
-    display: none;
-    visibility: hidden;
-}
 
 .darken-image {
     filter: brightness(50%);
 }
 
-.tengah .elemen-tengah{
+.tengah-misi .elemen-tengah{
     display: flex;
     padding-top: 50px;
     justify-content: start;
@@ -78,9 +79,4 @@
     color: #B8B6B6;
     font-family: 'Public Sans';
     padding-bottom: 50px;
-}
-
-.responsive-kolom-value {
-    display: none;
-    visibility: hidden;
 }

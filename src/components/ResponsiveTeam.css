@@ -1,0 +1,37 @@
+/* @media (max-width: 480px) {
+    .tengah-team .elemen-tengah-team {
+        display: none;
+        visibility: hidden;
+    }
+
+    .responsive-kolom-team {
+        display: flex;
+        visibility: visible;
+    }
+
+    .row-2-tengah {
+        padding-top: 25px;
+    }
+
+} */
+
+@media (max-width: 480px) {
+    .atas-team {
+        display: none;
+    }
+
+    .atas-team-responsive {
+        display: flex;
+        justify-content: center;
+        visibility: visible;
+    }
+
+    .tengah-team {
+        display: none;
+        visibility: hidden;
+    }
+
+    .responsive-kolom-team {
+        display: flex;
+    }
+}

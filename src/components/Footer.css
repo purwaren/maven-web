@@ -1,7 +1,7 @@
 .Footer-bar {
     padding-top: 100px;
     position: relative;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
 }
 
@@ -101,7 +101,8 @@
     width: 0%;
 }
 
-/* .Footer-bar-responsive{
-    width: 0%;
+.Footer-bar-responsive{
+    display: none;
     visibility: hidden;
-} */
+
+}

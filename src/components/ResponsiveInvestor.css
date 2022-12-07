@@ -1,0 +1,11 @@
+@media screen and (max-width: 480px){
+
+    .investor {
+        display: none;
+    }
+
+    .investor-responsive {
+        display: flex;
+    }
+
+ }

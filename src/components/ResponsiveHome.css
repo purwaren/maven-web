@@ -44,36 +44,36 @@
         height: 20px;
     }
 
-    .tengah .responsive-nesta {
+    .tengah-home .responsive-nesta {
         display: block;
     }
 
-    .tengah .gambar-nesta {
+    .tengah-home .gambar-nesta {
         margin-top: -50px;
         width: 100%;
         display: block;
     }
 
-    .tengah .judul-nesta {
+    .tengah-home .judul-nesta {
         display: block;
         font-size: 20px;
     }
 
 
-    .tengah .text-content {
+    .tengah-home .text-content {
         margin-top: -25px;
         margin-bottom: 25px;
         font-size: 10px;
     }
 
-    .tengah .text-content-2 {
+    .tengah-home .text-content-2 {
         margin-left: -7px;
         font-weight: bold;
         font-size: 10px;
         padding-bottom: 10px;
     }
 
-    .tengah .text-content-3 {
+    .tengah-home .text-content-3 {
         margin-left: -7px;
     }
 
