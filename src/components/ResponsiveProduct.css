@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px){
+    .produk-biasa {
+        display: none;
+    }
+    .responsive-produk {
+        display: block;
+    }
+
+    .text-nama-pr {
+        font-size: 12px;
+    }
+
+ }

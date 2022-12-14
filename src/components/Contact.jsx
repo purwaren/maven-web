@@ -1,7 +1,8 @@
 import { Form, Row, Col , Container, Button} from "react-bootstrap";
 import NavbarTop from './Navbar';
 import peta from '../img/Maps.webp'
-import './About.css';
+import './Contact.css';
+import './ResponsiveContact.css';
 
 
 const Contact = () => {
@@ -9,67 +10,102 @@ const Contact = () => {
     return (
         <div>
             <NavbarTop />
-            <Container fluid style={{paddingLeft: '50px', paddingRight: '50px'}}>
-                <Row>
-                    <Col xs={8}>
-                <Row>
-                    <Col xs={4} className='text-contact'> <p>Kantor Pusat</p></Col>
-                    <Col  xs={6} className='text-contact'>
-                    <p>Jl. Perkici 14, Blok EB 5 No. 15 -17,Pondok Ranji,Kec. Ciputat Timur,Kota Tangerang Selatan,Banten 15412</p>
-                    </Col>
-                </Row>
+            <div className="contact-tidak-responsive">
+                <Container style={{paddingLeft: '0px', paddingRight: '0px', paddingTop: '50px', paddingBottom: '50px'}}>
+                    <Row>
+                        <Col style={{paddingRight: '90px'}}>
+                            <div className="text-atas-contact">
+                                <Container>
+                                <Row style={{paddingBottom: '10px'}}>
+                                    <Col>Kantor Pusat</Col>
+                                    <Col>Jl. Perkici 14, Blok EB 5 No. 15 -17, 
+                                        Pondok Ranji, 
+                                        Kec. Ciputat Timur, 
+                                        Kota Tangerang Selatan, 
+                                        Banten 15412</Col>
+                                </Row>
+                                <Row style={{paddingBottom: '10px'}}>
+                                    <Col>Telephone</Col>
+                                    <Col>+62 81242421985</Col>
+                                </Row>
+                                <Row style={{paddingBottom: '25px'}}>
+                                    <Col>Email</Col>
+                                    <Col>info@mavenindonesia.com</Col>
+                                </Row>
+                                
+                                <Row>
+                                       <Form>
+                                            <Form.Group className="mb-3"  style={{width: '100%'}} controlId="formBasicEmail">
+                                                <Form.Control size="sm" style={{backgroundColor: '#D9D9D9'}} type="text" placeholder="First Name*" />
+                                            </Form.Group>
 
-                <Row style={{marginTop: '-90px'}}>
-                    <Col xs={4} className='text-contact'> <p>Telephone</p>  </Col>
+                                                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                                                        <Form.Control style={{backgroundColor: '#D9D9D9'}} size="sm" type="text" placeholder="Last Name*" />
+                                                    </Form.Group>
+                                                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                                                        <Form.Control style={{backgroundColor: '#D9D9D9'}} size="sm" type="email" placeholder="Email*" />
+                                                    </Form.Group>
+                                                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                                                        <Form.Control style={{backgroundColor: '#D9D9D9'}} size="sm" type="text" placeholder="Phone*" />
+                                                    </Form.Group>
+                                                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                                                        <Form.Control style={{backgroundColor: '#D9D9D9'}} size="sm" as="textarea" rows="7" cols="50" placeholder="Comment*"/>
+                                                    </Form.Group>
+                                                    <Button style={{backgroundColor: '#D9D9D9' ,color: '#527A6F', display: 'flex' ,float: 'right' , border: 'none'}} variant="primary" type="submit">
+                                                    Send
+                                                </Button>
+                                        </Form>
+                                    </Row>
+                                </Container>
+                            </div>
+                                
+                        </Col>
 
-                    <Col  xs={3} className='text-contact'>
-                    <p>+62 81242421985</p>
-                    </Col>
-                </Row>
-                <Row style={{marginTop: '-80px'}}>
-                    <Col xs={4} className='text-contact'> <p>Email</p>  </Col>
+                        <Col> <img src={peta} style={{width: '105%'}} alt="" /> </Col>
+                    </Row>  
+                </Container>
+            </div>
 
-                    <Col  xs={4} className='text-contact'>
-                    <p>info@mavenindonesia.com</p>
-                    </Col>
 
-                <Row>
-                <Col xs={9} style={{paddingBottom: '50px'}}>
-                    <Form>
-                            <Form.Group  className="mb-3" controlId="formBasicEmail">
-                                <Form.Control style={{backgroundColor: '#D9D9D9'}} type="text" placeholder="First name*" />
-                            </Form.Group>
-                            <Form.Group className="mb-3" controlId="formBasicPassword">
-                                <Form.Control style={{backgroundColor: '#D9D9D9'}} type="text" placeholder="Last name*" />
-                            </Form.Group>
-                            <Form.Group className="mb-3" controlId="formBasicPassword">
-                                <Form.Control style={{backgroundColor: '#D9D9D9'}} type="email" placeholder="Email*" />
-                            </Form.Group>
-                            <Form.Group className="mb-3" controlId="formBasicPassword">
-                                <Form.Control style={{backgroundColor: '#D9D9D9'}} type="text" placeholder="Phone*" />
-                            </Form.Group>
-                            <Form.Group className="mb-3" controlId="formBasicPassword">
-                                <Form.Control style={{backgroundColor: '#D9D9D9'}} as="textarea" placeholder="Comment*" />
-                            </Form.Group>
+            <div className="contact-responsive" style={{paddingLeft: '0px', paddingRight: '0px'}}>
+                <Container>
+                    <div className="text-atas-contact">
+                        <Container style={{paddingLeft: '0px', paddingRight: '0px', paddingTop: '50px', paddingBottom: '50px'}}>
+                            <Row>
+                                <div style={{display: 'flex'}}>
+                                <Col style={{display: 'flex',justifyContent: 'center'}}> <img src={peta} style={{width: '95%', paddingBottom: '50px'}} alt="" /> </Col>
+                                </div>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <div className="text-atas-contact">
+                                        <Container>
+                                        <Row style={{paddingBottom: '10px'}}>
+                                            <Col>Kantor Pusat</Col>
+                                            <Col>Jl. Perkici 14, Blok EB 5 No. 15 -17, 
+                                                Pondok Ranji, 
+                                                Kec. Ciputat Timur, 
+                                                Kota Tangerang Selatan, 
+                                                Banten 15412</Col>
+                                        </Row>
+                                        <Row style={{paddingBottom: '10px'}}>
+                                            <Col>Telephone</Col>
+                                            <Col>+62 81242421985</Col>
+                                        </Row>
+                                        <Row style={{paddingBottom: '25px'}}>
+                                            <Col>Email</Col>
+                                            <Col>info@mavenindonesia.com</Col>
+                                        </Row>
+                                        </Container>
+                                    </div>
+                                        
+                                </Col>
                             
-                            <Button style={{backgroundColor: '#D9D9D9' ,color: '#527A6F', display: 'flex' ,float: 'right' , border: 'none'}} variant="primary" type="submit">
-                                Send
-                            </Button>
-                        </Form>
-                        
-                    </Col>
-                    </Row>
-                    
-                
-                    </Row>
-                    </Col>
-                    <Col xs={0} style={{paddingLeft: '100px'}}>
-                    <div style={{paddingTop: '25px'}}>
-                    <img src={peta} className='peta' alt=""/>
+                            </Row>  
+                        </Container>
                     </div>
-                    </Col>
-                    </Row>
-                </Container>        
+                </Container>
+            </div>
         </div>
     )
 }
