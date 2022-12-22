@@ -3,11 +3,25 @@ import NavbarTop from './Navbar';
 import Gb1 from '../img/ProductIn.webp';
 import Gb2 from '../img/ProductIn2.webp';
 import Gb3 from '../img/ProductIn3.webp';
-import './Product1.css'
+import './Product1.css';
+import { Helmet } from "react-helmet";
 
 const Product1 = () => {
     return (
         <div>
+
+          <Helmet>
+                <title>Our Product</title>
+                    <meta 
+                    name='description'
+                    content='Product of Maven Realstate Indonesia'
+                    />
+
+                    <meta
+                    name='keywords'
+                    content='Maven Realstate Indonesia, Product, Work'
+                    />
+            </Helmet>
           <NavbarTop />
             <Container className="noresponsive" fluid style={{ width: '100%', paddingLeft: '0px', paddingRight: '0px'}}>
               <Carousel slide={false} controls={false} indicators={false}>

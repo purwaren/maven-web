@@ -8,11 +8,25 @@ import Tri from '../img/Team3.webp';
 import {Link} from 'react-router-dom';
 import Arrow from '../img/Arrow.webp';
 import Line from '../img/Line.webp';
+import { Helmet } from "react-helmet";
 
 
 const Team = () => {
     return (
         <div style={{paddingBottom: '50px'}}>
+            <Helmet>
+                <title>About Maven</title>
+                    <meta 
+                    name='description'
+                    content='Our Team'
+                    />
+
+                    <meta
+                    name='keywords'
+                    content='Maven Realstate Indonesia Team'
+                    />
+            </Helmet>
+            
             <div style={{backgroundColor: '#EBE4DA'}}>
                 <NavbarTop />
                 <div className='atas-team' style={{backgroundColor: '#EBE4DA'}}>

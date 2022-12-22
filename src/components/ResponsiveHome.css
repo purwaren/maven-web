@@ -95,16 +95,13 @@
     }
 
     .bawah .gambar-peta{
-        width: 0%;
+        display: none;
     }
 
     
     .bawah .gambar-peta-responsive {
-        margin-left: -20px;
-        justify-content: center;
-        align-items: center;
-        width: 180%;
-        padding-bottom: 60px;
+        display: flex;
+        padding-bottom: 50px;
     }
 
     .bawah .gambar-kecil {

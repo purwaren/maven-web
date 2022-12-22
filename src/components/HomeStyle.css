@@ -156,12 +156,10 @@
 }
 
 .gambar-peta-responsive {
-    width: 0%;
+    display: none;
 }
 
-.gambar-peta {
-    width: 105%;
-}
+
 
 .col-gambar-kecil {
     padding-bottom: 45px;

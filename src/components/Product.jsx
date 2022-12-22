@@ -8,6 +8,7 @@ import './Product.css';
 import './ResponsiveProduct.css';
 import Arrow from '../img/Arrow.webp';
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 
 const Product = () => { 
@@ -20,6 +21,20 @@ const Product = () => {
 
     return (
         <div>
+
+            <Helmet>
+                <title>Our Product</title>
+                    <meta 
+                    name='description'
+                    content='Product of Maven Realstate Indonesia'
+                    />
+
+                    <meta
+                    name='keywords'
+                    content='Maven Realstate Indonesia, Product, Work'
+                    />
+            </Helmet>
+
             <NavbarTop />
                 <div className="produk-biasa">
                 <Container style={{width: '100%', display: 'flex'}}>
