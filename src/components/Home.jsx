@@ -122,9 +122,9 @@
               <p style={{paddingLeft: '0px', marginTop: '-15px', paddingBottom: '15px', paddingTop: '0px'}} className='text-content-4'>
               JL. Haji Sa'aba Joglo, Kembangan, Jakarta Barat, DKI Jakarta</p>
             
-              <Col>
-              <img src={Peta} className='gambar-peta-responsive' alt="" />
-            </Col>
+              <Col className='gambar-peta-responsive'>
+              <iframe width="200" height="150" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=445&amp;hl=en&amp;q=Jl.%20Perkici%2014,%20Blok%20EB%205%20No.%2015-17%20Tangerang%20Selatan+(Maven%20Realstat%20Indonesia)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+              </Col>
             <Col className='col-gambar-kecil' ><img src={Jalan} className='gambar-kecil' alt=""  /> <p className='text-kecil'> 7 minutes to Joglo and Meruya Toll Gate </p> </Col>
             <Col className='col-gambar-kecil'><img src={Rumahsakit} className='gambar-kecil' alt=""  /> <Col xs={1} style={{display: 'inline'}}>  <p className='text-kecil'> Nearby from 2 reputable hospitals </p> </Col> </Col>
             <Col></Col>
@@ -137,8 +137,8 @@
             <Col className='col-gambar-kecil'><img src={Bandara} className='gambar-kecil' alt=""  /> <p className='text-kecil'> 26 minutes to Soekarno Hatta International Airport </p></Col>
             
             </Col>
-            <Col style={{paddingTop: '85px'}}  >
-              <img src={Peta} className='gambar-peta' alt="" />
+            <Col className='gambar-peta' style={{paddingTop: '85px'}}  >
+            <iframe width="520" height="520" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=445&amp;hl=en&amp;q=Jl.%20Perkici%2014,%20Blok%20EB%205%20No.%2015-17%20Tangerang%20Selatan+(Maven%20Realstat%20Indonesia)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
             </Col>
             
           <h2 className='text-2'>True Happiness is When We Enjoy Life With Family, Begins at Home!</h2>

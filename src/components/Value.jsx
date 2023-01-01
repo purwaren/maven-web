@@ -6,11 +6,26 @@ import './ResponsiveValue.css';
 import Arrow from '../img/Arrow.webp';
 import Line from '../img/Line.webp';
 import {Link} from 'react-router-dom';
+import { Helmet } from "react-helmet";
 
 const Value = () => {
 
     return (
         <div style={{paddingBottom: '50px'}}>
+
+            <Helmet>
+                <title>About Maven</title>
+                    <meta 
+                    name='description'
+                    content='Maven Realstate Indonesia Value'
+                    />
+
+                    <meta
+                    name='keywords'
+                    content='Value Of Maven realstate indonesia'
+                    />
+            </Helmet>
+
             <NavbarTop />
             <div className="atas">
                     <Container fluid style={{paddingLeft: '0px', paddingRight: '0px'}}>

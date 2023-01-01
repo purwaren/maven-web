@@ -1,4 +1,4 @@
-.text-nama {
+.text-nama-pr {
     font-family: 'Public Sans';
     color: #527A6F;
     font-weight: lighter;
@@ -8,4 +8,59 @@
     font-family: 'Public Sans';
     color: #527A6F;
     font-weight: bold;
+}
+
+.carousel-responsive {
+    display: none;
+}
+
+.teks-rsp {
+    display: none;
+}
+
+
+@media screen and (max-width: 480px) {
+    .carousel-responsive {
+        display: flex;
+    }
+
+    .teks-biasa {
+        display: none;
+    }
+
+    .teks-rsp {
+        display: flex;
+        font-family: 'Public Sans';
+        color: #527A6F;
+        text-align: justify;
+    }
+
+    .noresponsive {
+        display: none;
+    }
+
+    .judul-resp{
+        font-size: medium;
+    }
+
+    .alamat-resp {
+        font-size: x-small;
+    }
+
+    .isi-resp {
+        font-size: small;
+    }
+
+    .responsive-teks-produk {
+        padding-top: 50px;
+    }
+
+     .text-produk {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .text-produk-kecil {
+        font-size: 10px;
+    }
 }

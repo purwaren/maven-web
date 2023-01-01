@@ -1,0 +1,14 @@
+@media screen and (max-width: 480px){ 
+    .contact-tidak-responsive {
+        display: none;
+    }
+
+    .contact-responsive {
+        display: flex;
+    }
+
+    .text-atas-contact {
+        color: #B8B6B6;
+        font-size: 11px;
+    }
+}

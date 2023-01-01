@@ -6,11 +6,26 @@ import './ResponsiveAbout.css';
 import Arrow from '../img/Arrow.webp';
 import Line from '../img/Line.webp';
 import {Link } from 'react-router-dom';
+import { Helmet } from "react-helmet";
 
 const About = () => {
 
     return (
         <div>
+
+            <Helmet>
+            <title>About Maven</title>
+                <meta 
+                name='description'
+                content='Anything About Maven Realstate Indonesia'
+                />
+
+                <meta
+                name='keywords'
+                content='About Maven, Maven Vission'
+                />
+            </Helmet>
+
             <NavbarTop />
                 
                 <div className="atas">

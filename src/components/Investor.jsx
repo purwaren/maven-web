@@ -4,10 +4,24 @@ import investor from '../img/Collab.webp';
 import './Investor.css';
 import './ResponsiveInvestor.css';
 import garis from '../img/Line-miring.webp';
+import { Helmet } from "react-helmet";
 
 const Investor = () => {
     return (
         <div>
+            <Helmet>
+                <title>Collaboration with Us</title>
+                    <meta 
+                    name='description'
+                    content='Maven Corporate Strategies'
+                    />
+
+                    <meta
+                    name='keywords'
+                    content='Collaboration, Maven Realstate Indonesi'
+                    />
+            </Helmet>
+
             <NavbarTop />
             <Container fluid className='investor'>
                 <div style={{display: 'flex', justifyContent: 'space-around'}}>
