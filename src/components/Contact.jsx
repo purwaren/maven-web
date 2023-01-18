@@ -1,14 +1,47 @@
-import { Form, Row, Col , Container, Button} from "react-bootstrap";
+import { Form, Row, Col ,Modal, Container, Button} from "react-bootstrap";
 import NavbarTop from './Navbar';
 import peta from '../img/Maps.webp'
 import './Contact.css';
 import './ResponsiveContact.css';
 import { Helmet } from "react-helmet";
+import {useForm} from '@formcarry/react';
+import Thankyou from './Thankyou.jsx';
+import React, {useState} from 'react';
 
 
 const Contact = () => {
+    const {state, submit} = useForm({
+                id: 'lLThH5IAnC'
+            });
+            
+            // Success message
+            if (state.submitted) {
+                return(
+                    <div>
+                        <div
+                            className="modal show"
+                            style={{ display: 'block', position: 'initial' }}
+                            >
+                            <Modal.Dialog>
+                                <Modal.Header closeButton>
+                                <Modal.Title>Thank You!</Modal.Title>
+                                </Modal.Header>
 
+                                <Modal.Body>
+                                <p>Your Submission Has been sent!</p>
+                                </Modal.Body>
+
+                                <Modal.Footer>
+                                <Button href="/contact" variant="secondary">Return</Button>
+                                </Modal.Footer>
+                            </Modal.Dialog>
+                            </div>
+                    </div>
+                );
+            }
     return (
+
+        
         <div>
             
             <Helmet>
@@ -49,22 +82,22 @@ const Contact = () => {
                                 </Row>
                                 
                                 <Row>
-                                       <Form>
+                                       <Form onSubmit={submit}>
                                             <Form.Group className="mb-3"  style={{width: '100%'}} controlId="formBasicEmail">
-                                                <Form.Control size="sm" style={{backgroundColor: '#D9D9D9'}} type="text" placeholder="First Name*" />
+                                                <Form.Control size="sm" style={{backgroundColor: '#D9D9D9'}} type="text" name="firstName" placeholder="First Name*" />
                                             </Form.Group>
 
                                                     <Form.Group className="mb-3" controlId="formBasicEmail">
-                                                        <Form.Control style={{backgroundColor: '#D9D9D9'}} size="sm" type="text" placeholder="Last Name*" />
+                                                        <Form.Control style={{backgroundColor: '#D9D9D9'}} size="sm"  name="lastName" type="text" placeholder="Last Name*" />
                                                     </Form.Group>
                                                     <Form.Group className="mb-3" controlId="formBasicEmail">
-                                                        <Form.Control style={{backgroundColor: '#D9D9D9'}} size="sm" type="email" placeholder="Email*" />
+                                                        <Form.Control style={{backgroundColor: '#D9D9D9'}} size="sm"  name="email" type="email" placeholder="Email*" />
                                                     </Form.Group>
                                                     <Form.Group className="mb-3" controlId="formBasicEmail">
-                                                        <Form.Control style={{backgroundColor: '#D9D9D9'}} size="sm" type="text" placeholder="Phone*" />
+                                                        <Form.Control style={{backgroundColor: '#D9D9D9'}} size="sm"  name="phone" type="text" placeholder="Phone*" />
                                                     </Form.Group>
                                                     <Form.Group className="mb-3" controlId="formBasicEmail">
-                                                        <Form.Control style={{backgroundColor: '#D9D9D9'}} size="sm" as="textarea" rows="7" cols="50" placeholder="Comment*"/>
+                                                        <Form.Control style={{backgroundColor: '#D9D9D9'}} size="sm"  name="comments" as="textarea" rows="7" cols="50" placeholder="Comment*"/>
                                                     </Form.Group>
                                                     <Button style={{backgroundColor: '#D9D9D9' ,color: '#527A6F', display: 'flex' ,float: 'right' , border: 'none'}} variant="primary" type="submit">
                                                     Send
