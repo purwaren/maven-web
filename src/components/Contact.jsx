@@ -151,22 +151,22 @@ const Contact = () => {
                                 </Col>
 
                                 <Row>
-                                       <Form>
+                                <Form onSubmit={submit}>
                                             <Form.Group className="mb-3"  style={{width: '100%'}} controlId="formBasicEmail">
-                                                <Form.Control size="sm" style={{backgroundColor: '#D9D9D9'}} type="text" placeholder="First Name*" />
+                                                <Form.Control size="sm" style={{backgroundColor: '#D9D9D9'}} type="text" name="firstName" placeholder="First Name*" />
                                             </Form.Group>
 
                                                     <Form.Group className="mb-3" controlId="formBasicEmail">
-                                                        <Form.Control style={{backgroundColor: '#D9D9D9'}} size="sm" type="text" placeholder="Last Name*" />
+                                                        <Form.Control style={{backgroundColor: '#D9D9D9'}} size="sm"  name="lastName" type="text" placeholder="Last Name*" />
                                                     </Form.Group>
                                                     <Form.Group className="mb-3" controlId="formBasicEmail">
-                                                        <Form.Control style={{backgroundColor: '#D9D9D9'}} size="sm" type="email" placeholder="Email*" />
+                                                        <Form.Control style={{backgroundColor: '#D9D9D9'}} size="sm"  name="email" type="email" placeholder="Email*" />
                                                     </Form.Group>
                                                     <Form.Group className="mb-3" controlId="formBasicEmail">
-                                                        <Form.Control style={{backgroundColor: '#D9D9D9'}} size="sm" type="text" placeholder="Phone*" />
+                                                        <Form.Control style={{backgroundColor: '#D9D9D9'}} size="sm"  name="phone" type="text" placeholder="Phone*" />
                                                     </Form.Group>
                                                     <Form.Group className="mb-3" controlId="formBasicEmail">
-                                                        <Form.Control style={{backgroundColor: '#D9D9D9'}} size="sm" as="textarea" rows="7" cols="50" placeholder="Comment*"/>
+                                                        <Form.Control style={{backgroundColor: '#D9D9D9'}} size="sm"  name="comments" as="textarea" rows="7" cols="50" placeholder="Comment*"/>
                                                     </Form.Group>
                                                     <Button style={{backgroundColor: '#D9D9D9' ,color: '#527A6F', display: 'flex' ,float: 'right' , border: 'none'}} variant="primary" type="submit">
                                                     Send
