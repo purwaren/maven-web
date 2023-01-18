@@ -1,6 +1,7 @@
 {
   "name": "kode",
   "version": "0.1.0",
+  "homepage": "mavenindonesia.com",
   "private": true,
   "dependencies": {
     "@formcarry/react": "^1.0.3",
