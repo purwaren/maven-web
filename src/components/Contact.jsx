@@ -116,7 +116,7 @@ const Contact = () => {
             </div>
 
 
-            <div className="contact-responsive" style={{paddingLeft: '0px', paddingRight: '0px'}}>
+            <div className="contact-responsive" style={{paddingLeft: '25px'}}>
                 <Container>
                     <div className="text-atas-contact">
                         <Container style={{paddingLeft: '0px', paddingRight: '0px', paddingTop: '50px', paddingBottom: '50px'}}>

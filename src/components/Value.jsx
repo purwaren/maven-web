@@ -76,7 +76,7 @@ const Value = () => {
 
                 <div className="responsive-kolom-value">
                     <Container fluid>
-                    <Row>
+                    <Row style={{paddingTop: '10px'}}>
                         <Col> 
                         <img src={Line} alt="" style={{marginBottom: '-25px'}} className="garis-stack" />
                         <Link to='/about/vission' style={{textDecoration: 'none' , opacity: '0.5'}}>

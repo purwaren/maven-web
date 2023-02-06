@@ -121,7 +121,7 @@ const Product = () => {
                 <div className="responsive-produk">
                 <div className='produk-1'>
                 <Container>
-                <Row style={{ paddingTop: '50px'}}>
+                <Row style={{ paddingTop: '15px', paddingRight: '25px', paddingLeft: '25px'}}>
                         <Col style={{paddingTop: '20px'}}> 
                             <img src={Gb1} style={{width: '100%'}}  alt="" />
                             <Col className='text-nama-pr' style={{backgroundColor: '#EBE4DA'}} >
@@ -138,7 +138,7 @@ const Product = () => {
                             </Col>
                         </Col>
                 </Row>
-                <Row style={{ paddingTop: '20px'}}>
+                <Row style={{ paddingTop: '15px', paddingRight: '25px', paddingLeft: '25px'}}>
                         <Col style={{paddingTop: '20px'}}> 
                         <img src={Gb2} style={{width: '100%'}}  alt="" />
                             <Col className='text-nama-pr' style={{backgroundColor: '#EBE4DA'}} >
@@ -160,7 +160,7 @@ const Product = () => {
 
                 <div className='produk-2'>
                 <Container>
-                <Row style={{ paddingTop: '50px'}}>
+                <Row style={{ paddingTop: '15px', paddingRight: '25px', paddingLeft: '25px'}}>
                         <Col style={{paddingTop: '20px'}}> 
                             <img src={Gb3} style={{width: '100%'}}  alt="" />
                             <Col className='text-nama-pr' style={{backgroundColor: '#EBE4DA'}} >
@@ -177,7 +177,7 @@ const Product = () => {
                             </Col>
                         </Col>
                 </Row>
-                <Row style={{ paddingTop: '20px', paddingBottom: '25px'}}>
+                <Row style={{ paddingTop: '15px', paddingRight: '25px', paddingLeft: '25px', paddingBottom: '15px'}}>
                         <Col style={{paddingTop: '20px'}}> 
                         <img src={Gb4} style={{width: '100%'}}  alt="" />
                             <Col className='text-nama-pr' style={{backgroundColor: '#EBE4DA'}} >

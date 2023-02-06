@@ -23,57 +23,66 @@ const Investor = () => {
             </Helmet>
 
             <NavbarTop />
-            <Container fluid className='investor'>
+
+
+            <Container fluid className='investor' >
                 <div style={{display: 'flex', justifyContent: 'space-around'}}>
             <Row>
                 <Col style={{paddingLeft: '0px'}}><img src={investor} alt="" width={'100%'} height={'100%'} /></Col>
                 <Col className='text-nama' style={{paddingTop: '50px', justifyContent: 'center', marginRight: '0px'}}>
-                    <Row style={{justifyContent: 'center', marginRight: '0px' , marginLeft: '0px'}}>
+                    <Row style={{justifyContent: 'center', marginRight: '50px' , marginLeft: '50px'}}>
                         <Col>
                             <h6 style={{fontWeight: 'bold', textAlign: 'center'}}>Maven Corporate Strategies</h6>
                     
-                        <Row className='text-inbox' style={{backgroundColor: '#EBE4DA',marginTop: '50px' }}>
-                            <Col className="center-block" style={{justifyContent: 'center', paddingTop: '10px' , paddingBottom: '10px'}} >
-                                <h6 style={{display: 'inline', paddingRight: '20px'}}>1</h6>
-                                <Col style={{display: 'inline'}}>
-                                <img src={garis} alt="" style={{width: '2px', height: '50px', display: 'inline'}} />
-                                </Col>
-                                <p style={{display: 'inline', textAlign: 'justify', paddingLeft: '20px'}}> Running a dynamic business which focuses on the real estate industry.</p>
-                            </Col>  
+
+
+                        <Row className='text-inbox' style={{backgroundColor: '#EBE4DA',marginTop: '25px' }}>          
+                            
+                            <p style={{display: 'inline' , fontSize: '15px', paddingTop: '15px', paddingLeft: '20px'}}> 1 
+                            <div style={{display: 'inline', paddingLeft: '20px'}}>
+                            <img src={garis} style={{width: '2px', height: '50px', paddingTop: '5px', paddingBottom: '5px'}} alt="" />
+                            </div>
+                            <p style={{display: 'inline', fontSize: '12px', paddingLeft:'25px'}}> Running a dynamic business which focuses on the real estate industry.</p>
+                            </p>
+                                
                         </Row>
 
-                        <Row className='text-inbox' style={{backgroundColor: '#EBE4DA',marginTop: '20px' }}>
-                            <Col className="center-block" style={{justifyContent: 'center', paddingTop: '10px' , paddingBottom: '10px'}} >
-                                <h6 style={{display: 'inline', paddingRight: '20px'}}>2</h6>
-                                <Col xs={1} style={{display: 'inline'}}>
-                                <img src={garis} alt="" style={{width: '2px', height: '50px', display: 'inline'}} />
-                                </Col><p style={{display: 'inline', textAlign: 'justify', paddingLeft: '20px'}}> 
-                                Producing products & services which result from the 
-                                response of the contemporary issue.
-                                </p>
-                            </Col>
+
+                        <Row className='text-inbox' style={{backgroundColor: '#EBE4DA',marginTop: '25px' }}>          
+                            
+                            <p style={{display: 'inline' , fontSize: '15px', paddingTop: '15px', paddingLeft: '20px'}}> 2
+                            <div style={{display: 'inline', paddingLeft: '20px'}}>
+                            <img src={garis} style={{width: '2px', height: '50px', paddingTop: '5px', paddingBottom: '5px'}} alt="" />
+                            </div>
+                            <p style={{display: 'inline', fontSize: '12px', paddingLeft:'25px'}}> Producing products & services which result from the response of the contemporary issue </p>
+                            
+                            </p>
+                                
                         </Row>
+
                         
-                        <Row className='text-inbox' style={{backgroundColor: '#EBE4DA',marginTop: '20px' }}>
-                            <Col className="center-block" style={{justifyContent: 'center', paddingTop: '10px' , paddingBottom: '10px'}} >
-                                <h6 style={{display: 'inline', paddingRight: '20px'}}>3</h6>
-                                <Col style={{display: 'inline'}}>
-                                <img src={garis} alt="" style={{width: '2px', height: '50px', display: 'inline'}} />
-                                </Col>
-                                <p style={{display: 'inline', textAlign: 'justify', paddingLeft: '20px'}}>Collaborating with experts and property owners.</p>
-                            </Col>  
+                        
+                        <Row className='text-inbox' style={{backgroundColor: '#EBE4DA',marginTop: '25px' }}>          
+                            
+                            <p style={{display: 'inline' , fontSize: '15px', paddingTop: '15px', paddingLeft: '20px'}}> 3 
+                            <div style={{display: 'inline', paddingLeft: '20px'}}>
+                            <img src={garis} style={{width: '2px', height: '50px', paddingTop: '5px', paddingBottom: '5px'}} alt="" />
+                            </div>
+                            <p style={{display: 'inline', fontSize: '12px', paddingLeft:'25px'}}> Collaborating with experts and property owners.</p>
+                            </p>
+                                
                         </Row>
 
-                        <Row className='text-inbox' style={{backgroundColor: '#EBE4DA',marginTop: '20px' }}>
-                            <Col className="center-block" style={{justifyContent: 'center', paddingTop: '10px' , paddingBottom: '10px'}} >
-                                <h6 style={{display: 'inline', paddingRight: '20px'}}>4</h6>
-                                <Col xs={1} style={{display: 'inline'}}>
-                                <img src={garis} alt="" style={{width: '2px', height: '50px', display: 'inline'}} />
-                                </Col><p style={{display: 'inline', textAlign: 'justify', paddingLeft: '20px'}}> 
-                                Producing products & services which result from the 
-                                response of the contemporary issue.
-                                </p>
-                            </Col>
+                        <Row className='text-inbox' style={{backgroundColor: '#EBE4DA',marginTop: '25px' }}>          
+                            
+                            <p style={{display: 'inline' , fontSize: '15px', paddingTop: '15px', paddingLeft: '20px'}}> 4
+                            <div style={{display: 'inline', paddingLeft: '20px'}}>
+                            <img src={garis} style={{width: '2px', height: '50px', paddingTop: '5px', paddingBottom: '5px'}} alt="" />
+                            </div>
+                            <p style={{display: 'inline', fontSize: '12px', paddingLeft:'25px'}}> Avoiding the common price war strategy by preventing the low-endmarket. </p>
+                            
+                            </p>
+                                
                         </Row>
 
 
@@ -96,55 +105,31 @@ const Investor = () => {
                 <div style={{display: 'flex', justifyContent: 'space-around'}}>
             <Row>
                 <Col style={{paddingLeft: '0px'}}><img src={investor} alt="" width={'103%'} height={'100%'} /></Col>
-                <div>
+                <div className="test-investor">
                 <Col className='text-nama' style={{paddingTop: '50px', justifyContent: 'center', marginRight: '0px'}}>
                     <Row style={{justifyContent: 'center', marginRight: '0px' , marginLeft: '0px'}}>
                         <Col>
                             <h6 style={{fontWeight: 'bold', textAlign: 'center'}}>Maven Corporate Strategies</h6>
-                    
-                        <Row className='text-inbox' style={{backgroundColor: '#EBE4DA',marginTop: '50px' }}>
-                            <Col className="center-block" style={{justifyContent: 'center', paddingTop: '10px' , paddingBottom: '10px'}} >
-                                <h6 style={{display: 'inline', paddingRight: '20px'}}>1</h6>
-                                <Col style={{display: 'inline'}}>
-                                <img src={garis} alt="" style={{width: '2px', height: '50px', display: 'inline'}} />
-                                </Col>
-                                <p style={{display: 'inline', textAlign: 'justify', paddingLeft: '20px'}}> Running a dynamic business which focuses on the real estate industry.</p>
-                            </Col>  
-                        </Row>
-
-                        <Row className='text-inbox' style={{backgroundColor: '#EBE4DA',marginTop: '20px' }}>
-                            <Col className="center-block" style={{justifyContent: 'center', paddingTop: '10px' , paddingBottom: '10px'}} >
-                                <h6 style={{display: 'inline', paddingRight: '20px'}}>2</h6>
-                                <Col xs={1} style={{display: 'inline'}}>
-                                <img src={garis} alt="" style={{width: '2px', height: '50px', display: 'inline'}} />
-                                </Col><p style={{display: 'inline', textAlign: 'justify', paddingLeft: '20px'}}> 
-                                Producing products & services which result from the 
-                                response of the contemporary issue.
-                                </p>
-                            </Col>
-                        </Row>
-                        
-                        <Row className='text-inbox' style={{backgroundColor: '#EBE4DA',marginTop: '20px' }}>
-                            <Col className="center-block" style={{justifyContent: 'center', paddingTop: '10px' , paddingBottom: '10px'}} >
-                                <h6 style={{display: 'inline', paddingRight: '20px'}}>3</h6>
-                                <Col style={{display: 'inline'}}>
-                                <img src={garis} alt="" style={{width: '2px', height: '50px', display: 'inline'}} />
-                                </Col>
-                                <p style={{display: 'inline', textAlign: 'justify', paddingLeft: '20px'}}>Collaborating with experts and property owners.</p>
-                            </Col>  
-                        </Row>
-
-                        <Row className='text-inbox' style={{backgroundColor: '#EBE4DA',marginTop: '20px' }}>
-                            <Col className="center-block" style={{justifyContent: 'center', paddingTop: '10px' , paddingBottom: '10px'}} >
-                                <h6 style={{display: 'inline', paddingRight: '20px'}}>4</h6>
-                                <Col xs={1} style={{display: 'inline'}}>
-                                <img src={garis} alt="" style={{width: '2px', height: '50px', display: 'inline'}} />
-                                </Col><p style={{display: 'inline', textAlign: 'justify', paddingLeft: '20px'}}> 
-                                Producing products & services which result from the 
-                                response of the contemporary issue.
-                                </p>
-                            </Col>
-                        </Row>
+                        <Container fluid>
+                            <div>
+                                <Row className='text-inbox' style={{backgroundColor: '#EBE4DA',marginTop: '20px' }}>
+                                    <Col xs={2} style={{marginRight: '-25px'}} > <p style={{display: 'inline', paddingRight: '5px'}}>1</p> <img src={garis} style={{height: '65px',paddingTop: '15px', paddingBottom: '15px'}} alt="" /> </Col>
+                                    <Col style={{paddingTop: '15px', paddingBottom: '15px'}} >Running a dynamic business which focuses on the realestate industry.</Col>
+                                </Row>
+                                <Row className='text-inbox' style={{backgroundColor: '#EBE4DA',marginTop: '20px' }}>
+                                    <Col xs={2} style={{marginRight: '-25px'}} > <p style={{display: 'inline', paddingRight: '5px'}}>2</p> <img src={garis} style={{height: '65px',paddingTop: '15px', paddingBottom: '15px'}} alt="" /> </Col>
+                                    <Col style={{paddingTop: '15px', paddingBottom: '15px'}} >Producing products & services which result from the response of the contemporary issue.</Col>
+                                </Row>
+                                <Row className='text-inbox' style={{backgroundColor: '#EBE4DA',marginTop: '20px' }}>
+                                    <Col xs={2} style={{marginRight: '-25px'}} > <p style={{display: 'inline', paddingRight: '5px'}}>3</p> <img src={garis} style={{height: '65px',paddingTop: '15px', paddingBottom: '15px'}} alt="" /> </Col>
+                                    <Col style={{paddingTop: '15px', paddingBottom: '15px'}} >Collaborating with experts and property owners.</Col>
+                                </Row>
+                                <Row className='text-inbox' style={{backgroundColor: '#EBE4DA',marginTop: '20px' }}>
+                                    <Col xs={2} style={{marginRight: '-25px'}} > <p style={{display: 'inline', paddingRight: '5px'}}>4</p> <img src={garis} style={{height: '65px',paddingTop: '15px', paddingBottom: '15px'}} alt="" /> </Col>
+                                    <Col style={{paddingTop: '15px', paddingBottom: '15px'}} >Avoiding the common price war strategy by preventing the low-end market.</Col>
+                                </Row>
+                            </div>
+                        </Container>
 
 
                         <h6 style={{textAlign: 'center', paddingTop: '50px'}} className='text-bawah'>

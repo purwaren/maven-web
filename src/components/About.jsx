@@ -82,8 +82,8 @@ const About = () => {
                 </div>
 
                 <div className="responsive-kolom-bawah">
-                    <Container fluid>
-                    <Row>
+                    <Container fluid >
+                    <Row style={{paddingTop: '10px'}}>
                         <Col> 
                         <img src={Line} alt="" style={{marginBottom: '-25px'}} className="garis-stack" />
                         <Link to='' style={{textDecoration: 'none'}}>
