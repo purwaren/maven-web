@@ -53,8 +53,8 @@
           </div>
         </div>
       
-        <div className='tengah-home' style={{paddingLeft: '15px', paddingRight: '15px'}}>
-          <Container>
+        <div className='tengah-home' style={{paddingLeft: '25px', paddingRight: '25px'}}>
+          <Container fluid>
             <div style={{display: 'flex',paddingTop: '80px'}}>
             <Row className='responsive-nesta'>
               <Col>
