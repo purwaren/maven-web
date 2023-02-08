@@ -28,7 +28,7 @@ const Mission = () => {
                 />
             </Helmet>
             <NavbarTop />
-                <div className="atas">
+                <div>
                     <Container fluid style={{paddingLeft: '0px', paddingRight: '0px'}}>
                         <Card.Img  variant='top' src={Gb5} className='darken-image' />
                     </Container>

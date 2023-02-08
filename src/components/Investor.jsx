@@ -1,4 +1,4 @@
-import { Card, Row, Col , Container} from "react-bootstrap";
+import { Row, Col , Container} from "react-bootstrap";
 import NavbarTop from './Navbar';
 import investor from '../img/Collab.webp';
 import './Investor.css';

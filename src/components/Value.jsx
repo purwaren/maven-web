@@ -27,7 +27,7 @@ const Value = () => {
             </Helmet>
 
             <NavbarTop />
-            <div className="atas">
+            <div>
                     <Container fluid style={{paddingLeft: '0px', paddingRight: '0px'}}>
                         <Card.Img  variant='top' src={Gb6} className='darken-image' />
                     </Container>

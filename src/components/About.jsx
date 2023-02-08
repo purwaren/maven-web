@@ -28,11 +28,15 @@ const About = () => {
 
             <NavbarTop />
                 
-                <div className="atas">
+
+                <div>
                     <Container fluid style={{paddingLeft: '0px', paddingRight: '0px'}}>
-                        <Card.Img  variant='top' src={Gb4} className='darken-image' />
+                        <Card.Img  variant='top' src={Gb4}  className='darken-image' />
                     </Container>
                 </div>
+
+
+                
                 
                 <div className="tengah">
                 <Container className="elemen-tengah">
