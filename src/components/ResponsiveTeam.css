@@ -20,11 +20,21 @@
         display: none;
     }
 
+    
+    .atas {
+        display: flex;
+        visibility: visible;
+    }
+
     .atas-team-responsive {
         display: flex;
         justify-content: center;
         visibility: visible;
+        padding-left: 15px;
+        padding-right: 15px;
     }
+
+    
 
     .tengah-team {
         display: none;
@@ -33,5 +43,7 @@
 
     .responsive-kolom-team {
         display: flex;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }

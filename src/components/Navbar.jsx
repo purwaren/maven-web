@@ -1,4 +1,4 @@
-import { Nav , Navbar , Container} from 'react-bootstrap';
+import { Nav , Navbar , Container, Row, Col} from 'react-bootstrap';
 import './HomeStyle.css';
 import Logo from '../img/Logo.webp';
 import {Link} from 'react-router-dom';

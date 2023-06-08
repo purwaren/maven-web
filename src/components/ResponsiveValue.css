@@ -44,6 +44,8 @@
         display: flex;
         visibility: visible;
         align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .responsive-kolom-value .row-2-tengah {

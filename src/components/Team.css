@@ -1,7 +1,13 @@
 .text-nama {
     font-family: 'Public Sans';
     color: #527A6F;
+    
 
+}
+
+.atas {
+    display: none;
+    visibility: hidden;
 }
 
 .atas-team-responsive {
