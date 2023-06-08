@@ -40,17 +40,17 @@ const About = () => {
                 
                 <div className="tengah">
                 <Container className="elemen-tengah">
-                    <Row style={{marginBottom: '-100px'}}>
+                    <Row>
                         <div className="col-stack">
                         <Col>
                         <Stack className='responsive' gap={0}>
                             <img src={Line} alt="" className="garis-stack" />
                             <Link to='' style={{textDecoration: 'none'}}>
-                                <p className="text-tengah" >Vission<img src={Arrow} className='arrow' alt="" style={{marginLeft: '75px'}} /></p>
+                                <p className="text-tengah" >Vission<img src={Arrow} className='arrow' alt="" style={{marginLeft: '85px'}} /></p>
                             </Link>
                             <img src={Line} alt="" className="garis-stack" />
                            <Link to='/about/mission' style={{textDecoration: 'none' , opacity: '0.5'}} >
-                                <p className="text-tengah" >Mission<img src={Arrow} className='arrow' alt="" /></p>
+                                <p className="text-tengah" >Mission<img src={Arrow} className='arrow' alt=""style={{marginLeft: '85px'}} /></p>
                             </Link>                       
                             <img src={Line} alt="" className="garis-stack" style={{opacity: '0.5'}} />
                             <Link to='/about/value' style={{textDecoration: 'none' , opacity: '0.5'}}>

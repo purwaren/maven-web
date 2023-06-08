@@ -108,7 +108,9 @@ const Contact = () => {
                             </div>
                                 
                         </Col>
-                        <Col><iframe width="520" height="520" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=445&amp;hl=en&amp;q=Jl.%20Perkici%2014,%20Blok%20EB%205%20No.%2015-17%20Tangerang%20Selatan+(Maven%20Realstat%20Indonesia)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                        <Col className='gambar-peta'   >
+                            <iframe width="400" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3607589398594!2d106.73129457522786!3d-6.2160644937719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f72135a18ded%3A0xa660a58a03ea4539!2sNesta%20House!5e0!3m2!1sid!2sid!4v1685861811791!5m2!1sid!2sid">
+                            </iframe>
                         </Col>
                         {/* <Col> <img src={peta} style={{width: '105%'}} alt="" /> </Col> */}
                     </Row>  
