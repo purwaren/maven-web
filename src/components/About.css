@@ -8,7 +8,6 @@
 }
 
 .garis-stack {
-    margin-bottom: 10px;
     width: 100%;
 }
 
@@ -55,9 +54,10 @@
 }
 
 .arrow {
-    width: 10%;
-    display: inline;
-    margin-left: 70px;
+    width: 20px !important;
+    display: flex !important;
+    margin-top: -15px;
+    
 }
 
 .topbar {

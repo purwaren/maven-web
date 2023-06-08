@@ -146,11 +146,11 @@ const Team = () => {
                         <Stack className='responsive' gap={0}>
                             <img src={Line} alt="" className="garis-stack" style={{opacity: '0.5'}} />
                             <Link to='/about/vission' style={{textDecoration: 'none' , opacity: '0.5'}}>
-                                <p className="text-tengah" >Vission<img src={Arrow} className='arrow' alt="" style={{marginLeft: '75px'}} /></p>
+                                <p className="text-tengah" >Vission<img src={Arrow} className='arrow' alt="" style={{marginLeft: '85px'}} /></p>
                             </Link>
                             <img src={Line} alt="" className="garis-stack" style={{opacity: '0.5'}} />
                            <Link to='/about/mission' style={{textDecoration: 'none' , opacity: '0.5'}} >
-                                <p className="text-tengah" >Mission<img src={Arrow} className='arrow' alt="" /></p>
+                                <p className="text-tengah" >Mission<img src={Arrow} className='arrow' alt="" style={{marginLeft: '85px'}} /></p>
                             </Link>                       
                             <img src={Line} alt="" className="garis-stack" style={{opacity: '0.5'}} />
                             <Link to='/about/value' style={{textDecoration: 'none' , opacity: '0.5' }}>

@@ -16,93 +16,72 @@
     display: flex;
 }
 
-.barisan{
-    
-    width: 200px;
-    height: 100px;
-    padding-top:20px;
+.text-foot {
+    font-size: smaller;
+}
+
+.cont-footer {
     display: flex;
-    align-items: baseline;
-    justify-content: space-around;
+    align-items: center;
+    padding-left: 50px;
 }
 
-.barisan-pencarian{
-    
-    width: 200px;
-    height: 100px;
-    padding-top:20px;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-around;
+.cont-footer-mobile {
+  display: none;
+  visibility: hidden;
+  align-items: center;
 }
 
-.barisan-button{
-    
-    width: 200px;
-    height: 100px;
-    padding-top:20px;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-around;
-}
+@media (max-width: 480px) {
+    .cont-footer {
+        display: none;
+        visibility: hidden;
+    }
 
+    .text-foot {
+        display: flex;
+        text-orientation: upright;
+    }
 
-.barisan-tidak-responsive{
-    
-    width: 200px;
-    height: 100px;
-    padding-top:20px;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-around;
-}
+    .cont-footer-mobile {
+      display: inline;
+      visibility: visible;
+    }
 
-.text-footer {
-    text-align: start;
-    font-size: 12px;
-}
-
-.text-alamat {
-    padding-right: 5px;
-    margin-right: -70px;
+    .responsive-text-footer {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      
+      
+    }
 }
 
 
-.div-tengah .responsive {
-    display: flex;
-}
+@media (min-width: 481px) and (max-width: 768px) {
+    /* Styles for tablets and smaller screens */
+    .text-foot {
+      font-size: 14px !important;
+    }
 
-.text-footer-sebelah {
-    padding-left: 200px;
-    text-align: start;
-    font-size: 12px;
-}
-
-
-.text-footer-sebelah2 {
-    padding-left: 100px;
-    text-align: start;
-    font-size: 12px;
-}
-
-.barisan-responsive2 {
-    
-    width: 200px;
-    height: 100px;
-    padding-top:20px;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-around;
-}
-
-.barisan-responsive {
-    display: none;
-    visibility: hidden;
-    width: 0%;
-}
-
-.Footer-bar-responsive{
-    display: none;
-    visibility: hidden;
-
-}
+    .cont-footer {
+        display: block;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1200px) {
+    /* Styles for desktop and medium-sized screens */
+    .text-foot {
+      font-size: 16px !important;
+    }
+  }
+  
+  @media (min-width: 1201px) {
+    /* Styles for larger screens like 1920x1080 */
+    .text-foot {
+      font-size: 20px !important;
+    }
+    .cont-footer {
+      padding-left: 300px;
+    }
+  }
