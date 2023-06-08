@@ -22,3 +22,15 @@
 .investor-responsive {
     display: none;
 }
+
+@media screen and (max-width: 480px) {
+    .investor-responsive {
+        display: flex;
+        visibility: visible;
+    }
+
+    .investor-responsive .test-investor {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}

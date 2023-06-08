@@ -50,11 +50,13 @@
     .responsive-kolom-bawah{
         display: flex;
         visibility: visible;
+        padding-left: 15px;
+        padding-right: 15px;
         
     }
 
     .responsive-kolom-bawah .row-2-tengah {
-        padding-top: 25px;
+        padding-top: 15px;
         padding-bottom: 25px;
     }
 

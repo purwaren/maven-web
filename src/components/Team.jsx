@@ -1,5 +1,6 @@
-import {Row, Col , Container, Stack} from "react-bootstrap";
+import {Row, Col,Card , Container, Stack} from "react-bootstrap";
 import NavbarTop from './Navbar';
+import Gb5 from '../img/Mission.webp'
 import './Team.css';
 import './ResponsiveTeam.css';
 import Aziz from '../img/Team.webp';
@@ -29,15 +30,22 @@ const Team = () => {
             
             <div style={{backgroundColor: '#EBE4DA'}}>
                 <NavbarTop />
+                <div className="atas">
+                    <Container fluid style={{paddingLeft: '0px', paddingRight: '0px', display: 'flex', border: 'none'}}>
+                        <Card.Img  variant='top' src={Gb5} className='darken-image' />   
+                    </Container>
+                </div>
                 <div className='atas-team' style={{backgroundColor: '#EBE4DA'}}>
+                
                 <Container fluid style={{paddingTop: '25px'}}>
-                    <Row style={{paddingBottom: '10px' ,paddingTop: '10px', fontSize: 'medium', alignContent: 'space-between', display: 'flex', justifyContent: 'space-around'}}>
-                        <Col>
+                    <Row style={{paddingBottom: '10px' ,paddingTop: '10px', fontSize: 'medium'}}>
+                        <Col style={{paddingLeft: '75px'}}>
                         <div>
-                        <Col className="text-nama" style={{fontWeight: '400'}}>Aziz Cahya Perdana</Col>
-                        <Col className="text-nama" style={{fontSize: 'smaller', fontWeight: '400'}}>CEO</Col>
+                        <Col  className="text-nama" style={{fontWeight: '400'}}>Aziz Cahya Perdana</Col>
+                        <Col  className="text-nama" style={{fontSize: 'smaller', fontWeight: '400'}}>CEO</Col>
+                        
                         <Col className="text-nama">
-                        <img src={Aziz} alt="" style={{width: '80%' , alignContent: 'flex-start', }} />
+                        <img src={Aziz} alt="" style={{width: '80%' }} />
                         </Col>
                         <Col xs={10} className="text-nama" style={{fontSize: '12px', textAlign: 'justify' ,paddingTop: '15px', fontWeight: '400'}}>
                         A passionate and experienced figure who has spent the previous
@@ -64,6 +72,7 @@ const Team = () => {
                         </Col>
                         </div>
                         </Col>
+
                         <Col>
                         <div>
                         <Col className="text-nama" style={{fontWeight: '400'}}>Tri Mukhlison Anugrah</Col>
@@ -86,8 +95,33 @@ const Team = () => {
 
             
             <div className='atas-team-responsive' style={{backgroundColor: '#EBE4DA'}}>
-                <Container fluid style={{paddingTop: '25px'}}>
-                    
+                <Container fluid style={{paddingTop: '15px'}}>
+                <Row>
+                        <Col> 
+                        <img src={Line} alt="" style={{marginBottom: '-25px'}} className="garis-stack" />
+                        <Link to='/about/vission' style={{textDecoration: 'none' , opacity: '0.5'}}>
+                            <p className="text-bawah-res">Vission</p> </Link>
+                        <img src={Line} alt="" className="garis-stack" />
+                        </Col>
+                        <Col> 
+                        <img src={Line} alt="" style={{marginBottom: '-25px'}} className="garis-stack" />
+                        <Link to='/about/mission' style={{textDecoration: 'none' , opacity: '0.5'}}>
+                            <p className="text-bawah-res">Mission</p> </Link>
+                        <img src={Line} alt="" className="garis-stack" />
+                        </Col>
+                        <Col> 
+                        <img src={Line} alt="" style={{marginBottom: '-25px'}} className="garis-stack" />
+                        <Link to='/about/value' style={{textDecoration: 'none' , opacity: '0.5'}}>
+                            <p className="text-bawah-res">Value</p> </Link>
+                        <img src={Line} alt="" className="garis-stack" />
+                        </Col>
+                        <Col> 
+                        <img src={Line} alt="" style={{marginBottom: '-25px'}} className="garis-stack" />
+                        <Link to='' style={{textDecoration: 'none' }}>
+                            <p className="text-bawah-res">Team</p> </Link>
+                        <img src={Line} alt="" className="garis-stack" />
+                        </Col>
+                    </Row>
                     <Row>
                         <Col>
                         <Col className="text-nama" style={{fontWeight: '400'}}>Aziz Cahya Perdana</Col>
@@ -119,7 +153,7 @@ const Team = () => {
                         </Col>
                     </Row>
 
-                    <Row style={{paddingTop: '25px'}}>
+                    <Row style={{paddingTop: '25px', paddingBottom: '15px'}}>
                         <Col>
                         <Col className="text-nama" style={{fontWeight: '400'}}>Tri Mukhlison Anugrah</Col>
                         <Col className="text-nama" style={{fontSize: 'smaller', fontWeight: '400'}}>Founding Partner</Col>
@@ -179,34 +213,7 @@ const Team = () => {
                 </div>
 
                 <div className="responsive-kolom-team">
-                    <Container fluid>
-                    <Row>
-                        <Col> 
-                        <img src={Line} alt="" style={{marginBottom: '-25px' , opacity: '0.5'}} className="garis-stack" />
-                        <Link to='/about/vission' style={{textDecoration: 'none' , opacity: '0.5'}}>
-                            <p className="text-bawah-res">Vission</p> </Link>
-                        <img src={Line} alt="" style={{ opacity: '0.5' }} className="garis-stack" />
-                        </Col>
-                        <Col> 
-                        <img src={Line} alt="" style={{marginBottom: '-25px' , opacity: '0.5'}} className="garis-stack" />
-                        <Link to='/about/mission' style={{textDecoration: 'none' , opacity: '0.5'}}>
-                            <p className="text-bawah-res">Mission</p> </Link>
-                        <img src={Line} alt="" style={{ opacity: '0.5' }} className="garis-stack" />
-                        </Col>
-                        <Col> 
-                        <img src={Line} alt="" style={{marginBottom: '-25px' , opacity: '0.5' }} className="garis-stack" />
-                        <Link to='/about/value' style={{textDecoration: 'none'  , opacity: '0.5' }}>
-                            <p className="text-bawah-res">Value</p> </Link>
-                        <img src={Line} alt="" style={{ opacity: '0.5' }} className="garis-stack" />
-                        </Col>
-                        <Col> 
-                        <img src={Line} alt="" style={{marginBottom: '-25px'}} className="garis-stack" />
-                        <Link to='' style={{textDecoration: 'none'}}>
-                            <p className="text-bawah-res">Team</p> </Link>
-                        <img src={Line} alt="" className="garis-stack" />
-                        </Col>
-                    </Row>
-                    
+                    <Container fluid style={{paddingTop: '25px'}}>
                     <Row>
                     <Col className="text-tengah">Our team consists of passionate and skillful people. We connect the dots to provide more livable space for society. There is no doubt that every work will be completed by experts and produce outstanding results. Every project receives the same amount of care, attention, and expertise from us. </Col>
                     </Row>

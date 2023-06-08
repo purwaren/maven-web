@@ -53,8 +53,8 @@
           </div>
         </div>
       
-        <div className='tengah-home' style={{paddingLeft: '50px', paddingRight: '50px'}}>
-          <Container>
+        <div className='tengah-home' style={{paddingLeft: '25px', paddingRight: '25px'}}>
+          <Container fluid>
             <div style={{display: 'flex',paddingTop: '80px'}}>
             <Row className='responsive-nesta'>
               <Col>
@@ -62,51 +62,49 @@
               </Col>
             
               
-              <Col className='text' style={{paddingTop: '0px'}}>
-                  <p className='judul-nesta'>Nesta House</p>
-                <p style={{ paddingBottom: '15px', paddingTop: '30px', textAlign: 'justify'}} className='text-content'>
-                A masterpiece by Maven Realestat Indonesia which teamed up with Atelier Riri as an exclusive partner.</p>
-                  <p style={{paddingBottom: '15px', textAlign: 'justify'}} className='text-content'>
-                  We present 12 exclusive residential units which focus on life balance - in a premium location in West Jakarta.
-                  </p>
+                <Col className='text' style={{paddingTop: '0px'}}>
+                    <p className='judul-nesta'>Nesta House</p>
+                  <p style={{ paddingBottom: '15px', paddingTop: '30px', textAlign: 'justify'}} className='text-content'>
+                  A masterpiece by Maven Realestat Indonesia which teamed up with Atelier Riri as an exclusive partner.</p>
+                    <p style={{paddingBottom: '15px', textAlign: 'justify'}} className='text-content'>
+                    We present 12 exclusive residential units which focus on life balance - in a premium location in West Jakarta.
+                    </p>
 
-                  <p style={{textAlign: 'justify' }} className='text-content'>
-                  These units are surrounded by various essentials facilities such as malls,  famous schools and reputable hospitals . This makes Nesta House a right choice for families who crave sustainability, comfort, and above all life balance. </p>
-                
-                <Container style={{marginTop: '-20px'}}>
-                  <div style={{paddingTop: '0px'}}>
-                  <Row className='responsive-teks-tipe' style={{justifyContent: 'space-around'}}>
-                    <Col className='text-content-2' style={{justifyContent: 'space-between'}}>Type</Col>
-                    <Col className='text-content-2' style={{justifyContent: 'space-between'}}>Unit Land Size</Col>
-                    <Col className='text-content-2' style={{justifyContent: 'space-between'}}>Certificate</Col>
-                  </Row>
-                  </div>
+                    <p style={{textAlign: 'justify' }} className='text-content'>
+                    These units are surrounded by various essentials facilities such as malls,  famous schools and reputable hospitals . This makes Nesta House a right choice for families who crave sustainability, comfort, and above all life balance. </p>
+                  
+                    <div style={{paddingTop: '0px'}}>
+                    <Row className='responsive-teks-tipe'>
+                      <Col className='text-content-2'>Type</Col>
+                      <Col className='text-content-2'>Unit Land Size</Col>
+                      <Col className='text-content-2'>Certificate</Col>
+                    </Row>
+                    </div>
 
-                <div>
-                <Row style={{justifyContent: 'space-around'}}>
-                    <Col className='text-content-3' style={{justifyContent: 'space-between'}}>Townhouse</Col>
-                    <Col className='text-content-3' style={{justifyContent: 'space-between'}}>91 - 130 m2</Col>
-                    <Col className='text-content-3' style={{justifyContent: 'space-between'}}>Sertifikat Hak Milik (SHM)</Col>
-                  </Row>
-                  </div>
+                    <div>
+                    <Row >
+                      <Col className='text-content-3' >Townhouse</Col>
+                      <Col className='text-content-3' >91 - 130 m2</Col>
+                      <Col className='text-content-3' >Sertifikat Hak Milik (SHM)</Col>
+                    </Row>
+                    </div>
 
-                <div>
-                  <Row style={{justifyContent: 'space-around' , paddingTop: '20px'}}>
-                    <Col className='text-content-2' style={{justifyContent: 'space-between'}}>Building Size</Col>
-                    <Col className='text-content-2' style={{justifyContent: 'space-between'}}>Interior</Col>
-                    <Col className='text-content-2' style={{justifyContent: 'space-between'}}></Col>
-                  </Row>
-                  </div>
+                    <div>
+                      <Row style={{justifyContent: 'space-around' , paddingTop: '20px'}}>
+                        <Col className='text-content-rb' >Building Size</Col>
+                        <Col className='text-content-rb' >Interior</Col>
+                        <Col className='text-content-rb' ></Col>
+                      </Row>
+                    </div>
 
-                <div>
-                <Row style={{justifyContent: 'space-around'}}>
-                    <Col className='text-content-3' style={{justifyContent: 'space-between'}}>179 m2</Col>
-                    <Col className='text-content-3' style={{justifyContent: 'space-between'}}>Semi Furnished (Optional)</Col>
-                    <Col className='text-content-3' style={{justifyContent: 'space-between'}}></Col>
-                  </Row>
-                  </div>
-                  </Container>
-              </Col>
+                    <div>
+                    <Row style={{justifyContent: 'space-around'}}>
+                      <Col className='text-content-3' >179 m2</Col>
+                      <Col className='text-content-3' >Semi Furnished (Optional)</Col>
+                      <Col className='text-content-3' ></Col>
+                    </Row>
+                    </div>
+                </Col>
             </Row>
             </div>
           </Container>
@@ -114,8 +112,8 @@
         </div>
 
 
-        <div className='bawah' style={{paddingLeft: '30px', paddingRight: '50px'}}>
-        <Container fluid style={{ paddingTop: '50px' ,paddingLeft: '50px', paddingRight: '50px'}}>
+        <div className='bawah' style={{paddingLeft: '40px', paddingRight: '15px'}}>
+        <Container fluid style={{ paddingTop: '20px' ,paddingLeft: '45px', paddingRight: '50px'}}>
           <Row style={{paddingTop: '50px'}}>
             <Col className='text' style={{paddingTop: '70px'}}>
               <p className='judul-nesta' style={{paddingLeft: '0px'}}>Nesta House Location</p>
@@ -123,8 +121,9 @@
               JL. Haji Sa'aba Joglo, Kembangan, Jakarta Barat, DKI Jakarta</p>
             
               <Col className='gambar-peta-responsive'>
-              <iframe width="200" height="150" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=445&amp;hl=en&amp;q=Jl.%20Perkici%2014,%20Blok%20EB%205%20No.%2015-17%20Tangerang%20Selatan+(Maven%20Realstat%20Indonesia)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+              <iframe width="350" height="150" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=445&amp;hl=en&amp;q=Jl.%20Perkici%2014,%20Blok%20EB%205%20No.%2015-17%20Tangerang%20Selatan+(Maven%20Realstat%20Indonesia)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
               </Col>
+
             <Col className='col-gambar-kecil' ><img src={Jalan} className='gambar-kecil' alt=""  /> <p className='text-kecil'> 7 minutes to Joglo and Meruya Toll Gate </p> </Col>
             <Col className='col-gambar-kecil'><img src={Rumahsakit} className='gambar-kecil' alt=""  /> <Col xs={1} style={{display: 'inline'}}>  <p className='text-kecil'> Nearby from 2 reputable hospitals </p> </Col> </Col>
             <Col></Col>

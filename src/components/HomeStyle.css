@@ -101,6 +101,13 @@
     font-family: 'Public Sans';
     }
 
+.text-content-rb {
+    font-weight: bold;
+    color: #527A6F;
+    font-size: medium;
+    font-family: 'Public Sans';
+}
+
 
 .media-e {
     padding-bottom: 10px;

@@ -74,7 +74,7 @@ const Product1 = () => {
       </Carousel>
         </div>
         
-        <Container className="teks-biasa" fluid style={{paddingTop: '25px', paddingBottom: '50px'}}>
+        <Container className="teks-biasa" fluid style={{paddingTop: '25px', paddingBottom: '50px', paddingRight: '15px', paddingLeft: '15px'}}>
         <div>
           <Row className="text-nama-pr">
             <Col>
@@ -139,13 +139,13 @@ const Product1 = () => {
 
         <div className='teks-rsp'>
             <Container>
-              <Row>
+              <Row style={{paddingRight: '25px',paddingTop: '15px', paddingLeft: '25px'}}>
                 <Col><p className='judul-resp'> Nesta House <p className="alamat-resp"> JL. Haji Sa’aba Joglo, Kembangan, Jakarta Barat, DKI Jakarta </p> </p>
                 <Row><Col className="isi-resp">Nesta, a compact and comfortable living space in the heart of the city that will help you to obtain work-life balance. We construct exceptional facilities to raise the worth of your living value as well as guarantee security for each residence. Nesta is supported by the number of features surrounding the environment and within the houses.</Col></Row>
                 </Col>
               </Row>
 
-              <Container style={{marginTop: '-20px'}}>
+              <Container style={{marginTop: '-20px', paddingRight: '25px', paddingLeft: '25px'}}>
                   <div style={{paddingTop: '0px'}}>
                   <Row className='responsive-teks-produk' style={{justifyContent: 'space-around'}}>
                     <Col className='text-produk' style={{justifyContent: 'space-between'}}>Type</Col>

@@ -43,6 +43,8 @@
     .responsive-kolom-mission{
         display: flex;
         visibility: visible;
+        padding-left: 15px;
+        padding-right: 15px;
        
     }
 
