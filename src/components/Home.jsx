@@ -21,7 +21,9 @@
     const handleClick = () => {
       // Handle button click event
       // You can use window.open() or any other method to open the WhatsApp link
-      const phoneNumber = '6281242421985'; // Replace with your desired phone number
+
+      const phoneNumber = '6281317920106'; // Replace with your desired phone number
+
       const url = `https://wa.me/${phoneNumber}`;
       window.open(url, '_blank');
     };
