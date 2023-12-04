@@ -1,8 +1,8 @@
 .footer-content {
   display: flex;
   text-align: justify;
-  font-size: small;
+  font-size: larger;
   font-family: 'Public Sans';
   padding: 10px;
-  margin-left: 100px;
+  margin-left: 300px;
 }

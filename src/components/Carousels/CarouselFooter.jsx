@@ -18,7 +18,7 @@ const CarouselFooter = () => {
                     className="img-footer"
                     src={stairs}
                     alt="Second slide"
-                    height={200}
+                    height={300}
                   />  
                   <img
                     className="img-footer-center"
@@ -29,7 +29,7 @@ const CarouselFooter = () => {
                     className="img-footer"
                     src={Kitchen}
                     alt="Second slide"
-                    height={200}
+                    height={300}
                   />  
               </Carousel.Item>
 
@@ -38,19 +38,19 @@ const CarouselFooter = () => {
                     className="img-footer"
                     src={LivingRoom1}
                     alt="Second slide"
-                    height={200}
+                    height={300}
                   />  
                   <img
                     className="img-footer-center-2"
                     src={Kitchen}
                     alt="Second slide"
-                    height={280}
+                    height={450}
                   />  
                   <img
                     className="img-footer"
                     src={stairs}
                     alt="Second slide"
-                    height={200}
+                    height={300}
                   />  
               </Carousel.Item>
 
@@ -59,19 +59,19 @@ const CarouselFooter = () => {
                     className="img-footer"
                     src={Kitchen}
                     alt="Second slide"
-                    height={200}
+                    height={300}
                   />  
                   <img
                     className="img-footer-center-2"
                     src={stairs}
                     alt="Second slide"
-                    height={280}
+                    height={380}
                   />  
                   <img
                     className="img-footer"
                     src={LivingRoom1}
                     alt="Second slide"
-                    height={200}
+                    height={300}
                   />  
               </Carousel.Item>
               
