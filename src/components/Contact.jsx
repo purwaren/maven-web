@@ -1,5 +1,5 @@
 import { Form, Row, Col ,Modal, Container, Button} from "react-bootstrap";
-import NavbarTop from './Navbar';
+import NavbarTop from './NavigationBar/Navbar';
 import peta from '../img/Maps.webp'
 import './Contact.css';
 import './ResponsiveContact.css';

@@ -1,5 +1,5 @@
 import { Card, Row, Col , Container, Stack} from "react-bootstrap";
-import NavbarTop from './Navbar';
+import NavbarTop from './NavigationBar/Navbar';
 import Gb4 from '../img/Vission.webp';
 import './About.css';
 import './ResponsiveAbout.css';
@@ -41,7 +41,7 @@ const About = () => {
                 <div className="tengah">
                 <Container className="elemen-tengah">
                     <Row>
-                        <div className="col-stack">
+                        <div className="col-stack" style={{marginBottom: '100px'}}>
                         <Col>
                         <Stack className='responsive' gap={0}>
                             <img src={Line} alt="" className="garis-stack" />
@@ -57,7 +57,7 @@ const About = () => {
                                 <p className="text-tengah" >Value<img src={Arrow} className='arrow' alt="" style={{marginLeft: '85px'}} /></p>
                             </Link>
                             <img src={Line} alt="" className="garis-stack" style={{opacity: '0.5'}} />
-                            <Link to='/about/team' style={{textDecoration: 'none' , opacity: '0.5'}}>
+                            {/* <Link to='/about/team' style={{textDecoration: 'none' , opacity: '0.5'}}>
                                 <p className="text-tengah" >Team<img src={Arrow} className='arrow' alt="" style={{marginLeft: '85px'}}/></p>
                             </Link>
                             <img src={Line} alt="" className="garis-stack" style={{opacity: '0.5'}} />
@@ -66,7 +66,7 @@ const About = () => {
                                 <p className="text-tengah" >Value<img src={Arrow} className='arrow' alt="" style={{marginLeft: '85px'}} /></p>
                             </Link>
                             <img src={Line} alt="" style={{opacity: '0.5'}} />
-                            </div>
+                            </div> */}
                             </Stack>
                             
                         </Col>

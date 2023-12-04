@@ -1,5 +1,5 @@
 import { Row, Col , Container} from "react-bootstrap";
-import NavbarTop from './Navbar';
+import NavbarTop from './NavigationBar/Navbar';
 import investor from '../img/Collab.webp';
 import './Investor.css';
 import './ResponsiveInvestor.css';

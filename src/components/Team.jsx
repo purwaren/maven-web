@@ -1,5 +1,5 @@
 import {Row, Col,Card , Container, Stack} from "react-bootstrap";
-import NavbarTop from './Navbar';
+import NavbarTop from './NavigationBar/Navbar';
 import Gb5 from '../img/Mission.webp'
 import './Team.css';
 import './ResponsiveTeam.css';

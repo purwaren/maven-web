@@ -1,0 +1,27 @@
+.img-footer {
+    display: inline;
+    justify-content: center;
+    width: 30%;
+}
+
+.img-footer-center {
+    display: inline;
+    justify-content: center;
+    width: 40%;
+}
+
+
+.img-footer-center-2 {
+    display: inline;
+    justify-content: center;
+    width: 40%;
+}
+.my-carousel-footer {
+    display: flex;
+    text-align: center;
+}
+
+.item-1 {
+    padding-bottom: 50px;
+    display: flex;
+}
