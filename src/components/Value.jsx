@@ -1,5 +1,5 @@
 import { Card, Row, Col , Container, Stack} from "react-bootstrap";
-import NavbarTop from './Navbar';
+import NavbarTop from './NavigationBar/Navbar';
 import Gb6 from '../img/Value.webp';
 import './About.css';
 import './ResponsiveValue.css';
@@ -53,10 +53,10 @@ const Value = () => {
                                     <p className="text-tengah" >Value<img src={Arrow} className='arrow' alt="" style={{marginLeft: '85px'}} /></p>
                                 </Link>
                                 <img src={Line} alt="" className="garis-stack" />
-                                <Link to='/about/team' style={{textDecoration: 'none' , opacity: '0.5'}}>
+                                {/* <Link to='/about/team' style={{textDecoration: 'none' , opacity: '0.5'}}>
                                     <p className="text-tengah" >Team<img src={Arrow} className='arrow' alt="" style={{marginLeft: '85px'}}/></p>
                                 </Link>
-                                <img src={Line} alt="" className="garis-stack" style={{opacity: '0.5'}} />
+                                <img src={Line} alt="" className="garis-stack" style={{opacity: '0.5'}} /> */}
                                 <div style={{visibility: 'hidden'}}>
                                 <Link to='/about/value' style={{textDecoration: 'none' , opacity: '0.5'}}>
                                     <p className="text-tengah" >Value<img src={Arrow} className='arrow' alt="" style={{marginLeft: '85px'}} /></p>

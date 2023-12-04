@@ -1,5 +1,5 @@
 import {  Carousel, Col , Container, Row} from "react-bootstrap";
-import NavbarTop from './Navbar';
+import NavbarTop from './NavigationBar/Navbar';
 import Gb1 from '../img/ProductIn.webp';
 import Gb2 from '../img/ProductIn2.webp';
 import Gb3 from '../img/ProductIn3.webp';

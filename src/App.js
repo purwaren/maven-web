@@ -45,7 +45,7 @@ function App() {
       <Route path='/about/mission' element={<Mission />} />
       <Route path='/about/value' element={<Value />} />
       <Route path='/contact' element={<Contact />} />
-      <Route path='/about/team' element={<Team />} />
+      {/* <Route path='/about/team' element={<Team />} /> */}
       <Route path='/product' element={<Product />} />
       <Route path='/product/1' element={<Product1 />} />
       <Route path='/investor'  element={<Investor />} />

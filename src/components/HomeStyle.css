@@ -1,390 +1,4 @@
-.bg-myBg {
-    background-color: #527A6F;
-    color: #EBE4DA;;
-    
-}
-
-.warna {
-    font-family: 'Public Sans';
-    color: #EBE4DA; 
-    text-decoration: none;
-}
-
-.warna:hover {
-    color: inherit;
-    text-decoration: none;
-}
-
-.left-top-logo {
-    max-width: 100%;
-    height: auto;
-    width: 70%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.my-carousel .carousel-caption {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  }
-  
-  .caption-content {
-    text-align: center;
-    font-family: 'Public Sans';
-    color: #EBE4DA;
-    
-  }
-
-  .caption-line {
-    text-align: left;
-    margin: 0;
-  }
-
-  .caption-line .caption-button{
-    background-color: #D9D9D9;
-    text-decoration: none;
-  }
-
-  
-  .caption-line .caption-button:focus{
-    outline: none;
-    box-shadow: none;
-  }
-
-.responsive-main-menu-top {
-  display: none;
-  visibility: hidden;
-}
-
-.responsive-menu-428 {
-  display: none;
-  visibility: hidden;
-}
-
-.responsive-menu-mid {
-  display: none;
-  visibility: hidden;
-}
-  .caption-line-whatsapp .whatsapp{
-    position: sticky;
-    width: 100px; 
-    height: 50px;
-    margin-top: 50px;
-    background: transparent;
-    display: flex;
-    text-align: start;
-    z-index: 1; /* Make sure the WhatsApp logo appears above the carousel image */
-
-  }
-  
-  .caption-line .caption-button .button-text{
-    text-decoration: none;
-  }
-
-
-  .button-text {
-    color: #527A6F;
-    text-decoration: none;
-  }
-
-
-.lighter {
-    filter: brightness(100%)
-}
-
-.darken-image {
-    filter: brightness(50%)
-}
-
-.warna-brand {
-    color: #EBE4DA; 
-}
-
-.car-resp {
-  display: none;
-  visibility: visible;
-}
-
-.peta-resp {
-  display: none;
-  visibility: hidden;
-}
-
-
-.txt-upper-carousel {
-  font-size: 24px !important;
-}
-
-.text {
-    padding-bottom: 10px;
-    color: #527A6F;
-    font-family: 'Public Sans';
-    text-align: justify;
-}
-
-.responsive-tablet-mid {
-  visibility: visible;
-  display: none;
-}
-
-@media (min-width: 60px) and (max-width: 428px) {
-    /* Styles for mobile devices */
-    .text {
-      font-size: 14px !important;
-    }
-    .judul-nesta {
-        font-size: 20px !important;
-      }
-
-    .caption-line {
-      font-size: small;
-    }
-
-    .caption-line .highlights {
-      font-size: medium;
-    }
-
-    .responsive-main-menu-top {
-      visibility: visible;
-      display: flex;
-    }
-
-    .main-menu-all {
-      visibility: hidden;
-      display: none;
-    }
-
-    .row-for-img-top {
-      display: block;
-    }
-
-    .menu-mid {
-      display: none;
-      visibility: hidden;
-    }
-
-    .responsive-menu-mid {
-      display: flex;
-      visibility: visible;
-    }
-
-    .text-kecil {
-      font-size: 14px;
-    }
-
-    .gambar-peta {
-      padding-top: 100px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .txt-upper-carousel {
-      display: flex;
-      text-align: center;
-    }
-
-    .car-normal {
-      display: none;
-      visibility: hidden;
-    }
-    .car-resp {
-      margin-top: 50px;
-      margin-bottom: 50px;
-      display: flex;
-      visibility: visible;
-    }
-    
-    .gambar-car-1 {
-      display: inline;
-      width: 25%;
-    }
-    
-    .gambar-car-2 {
-      display: inline;
-      width: 50%;
-    }
-    
-    .gambar-car-3 {
-      
-      display: inline;
-      width: 25%;
-    }
-    
-    
-    .gambar-car-1-2 {
-      display: inline;
-      width: 10%;
-    }
-    
-    .gambar-car-2-2{
-      display: inline;
-      width: 35%;
-    }
-    
-    .gambar-car-3-2 {
-      display: inline;
-      width: 30%;
-    }
-    
-    
-    
-    .gambar-car-1-3 {
-      display: inline;
-      width: 28%;
-    }
-    
-    .gambar-car-2-3{
-      display: inline;
-      height: 350px;
-      width: 47%;
-    }
-    
-    .gambar-car-3-3 {
-      height: 300px;
-      display: inline;
-      width: 25%;
-    }
-    
-  }
-  
-  @media (min-width: 428px) and (max-width: 992px) {
-    /* Styles for tablets and smaller screens */
-    .text {
-      font-size: 24px !important;
-    }
-
-    .text-content-2 {
-      font-size: 18px !important;
-    }
-    .text-content-3 {
-      font-size: 16px !important;
-    }
-    .text-content-4 {
-      font-size: 18px !important;
-    }
-
-    .main-menu-all {
-      display: none;
-      visibility: hidden;
-    }
-    .responsive-menu-428 {
-      display: flex;
-      visibility: visible;
-    }
-    
-    .judul-nesta {
-        font-size: 32px !important;
-      }
-
-    .responsive-menu-mid {
-      display: none;
-      visibility: visible;
-    }
-
-    .menu-mid {
-      display: none;
-      visibility: visible;
-    }
-
-    .responsive-tablet-mid {
-      display: flex;
-      visibility: visible;
-    }
-    
-    .gambar-peta {
-      display: flex;
-      justify-content: center;
-    }
-  }
-
-  @media (min-width: 992px)  {
-    .text {
-      font-size: 18px !important;
-    }
-  }
-/* 
-  @media (min-width: 429px) and (max-width: 992px) {
-    .text {
-     background-color: beige;
-    }
-  } */
-/*   
-  @media (min-width: 429px) and (max-width: 992px) {
-    .text {
-      font-size: 16px !important;
-      
-    }
-
-    .judul-nesta {
-        font-size: 35px !important;
-      }
-
-  }
-   */
-  @media (min-width: 1201px) {
-    /* Styles for larger screens like 1920x1080 */
-    .text {
-      font-size: 26px !important;
-      
-    }
-
-    .judul-nesta {
-        font-size: 50px !important;
-      }
-
-    .warna {
-      font-size: 22px !important;
-    }
-
-    .left-top-logo {
-      width: 100%;
-    }
-
-    .caption-line {
-      font-size: 42px !important;
-    }
-
-    .highlights {
-      font-size: 52px !important;
-      font-weight: bold;
-
-    }
-
-    .text-content-2 {
-      font-size: 24px !important;
-    }
-
-    .text-content-3 {
-      font-size: 18px !important;
-    }
-
-    .text-content-4 {
-      font-size: 24px !important;
-    }
-
-    .text-kecil {
-      font-size: 20px !important;
-    }
-
-    .peta-biasa {
-      display: none;
-      visibility: hidden;
-    }
-
-    .peta-resp {
-      display: flex;
-      visibility: visible;
-    }
-
-    .txt-upper-carousel {
-      font-size: 40px !important;
-    }
-  }
-
-  .whatsapp-button {
+.whatsapp-button {
     position: fixed;
     bottom: 20px;
     left: 20px;
@@ -397,196 +11,79 @@
     cursor: pointer;
   }
   
-  .whatsapp-button:hover {
-    background-color: #527A6F;
-  }
-  
-
-.text-2 {
-    text-align: center;
-    font-size: 34px;
-    font-style: italic;
-    padding-top: 50px;
-    color: #527A6F;
-    text-align: justify;
-    font-family: 'Public Sans';
-    padding-bottom: 70px;
-   
+.whatsapp-button:hover {
+  background-color: #527A6F;
 }
 
-.text-content {
-    color: #527A6F;
-    font-size: 19px;
-    font-family: 'Public Sans';
-    padding-bottom: 50px;}
-
-    @media screen and (max-width: 768px) {
-        .text-content{
-            font-size: larger;
-        }
-    }
-    
-.text-content-3 {
-    color: #527A6F;
-    font-size: 10px;
-    font-family: 'Public Sans';
+.gambar-row-1 {
+  width: 100%;
 }
 
-
-.text-content-4 {
-    color: #527A6F;
-    font-size: 13px;
-    font-family: 'Public Sans';
-}
-
-.text-content-2 {
-    font-weight: bold;
-    color: #527A6F;
-    font-size: medium;
-    font-family: 'Public Sans';
-    }
-
-.text-content-rb {
-    font-weight: bold;
-    color: #527A6F;
-    font-size: medium;
-    font-family: 'Public Sans';
-}
-
-
-.media-e {
-    padding-bottom: 10px;
-    font-size: 23px;
-}
-
-.gambar-nesta {
-    width: 90%;
- 
+.row-for-img-top{
+  width: 50% ;
 }
 
 .judul-nesta {
-    font-size: 35px;
-    font-weight: 500;
-    font-family: 'Public Sans';
-    color: #527A6F;
+  font-size: xx-large;
+  font-weight: 500;
+  font-family: 'Public Sans';
+  color: #527A6F;
 }
 
-.media-tulisankecil {
-    margin-top: -25px;
-    font-weight: lighter;
-    font-size: 15px;
-}
-.row-for-img-top{
-    display: inline;
-    width: 100%;
-    height: 95%;
+.text {
+  padding-bottom: 10px;
+  color: #527A6F;
+  font-family: 'Public Sans';
+  text-align: justify;
+  font-weight: lighter;
 }
 
-.txt-upper-carousel{
-    font-family: 'Public Sans';
-    font-style: italic;
-    color: #527A6F;
-    display: flex;
-  justify-content: center;
-  align-items: center;  
-  margin-top: 100px;
-  margin-bottom: 50px;
+.text-content-2 {
+  font-weight: bold;
+  color: #527A6F;
+  font-size: small;
+  font-family: 'Public Sans';
 }
 
-.gambar-car-1 {
-  display: inline;
-  width: 25%;
+.text-content-3 {
+  color: #527A6F;
+  font-size: 11px;
+  font-family: 'Public Sans';
 }
 
-.gambar-car-2 {
-  display: inline;
-  width: 50%;
-}
-
-.gambar-car-3 {
-  
-  display: inline;
-  width: 25%;
-}
-
-
-.gambar-car-1-2 {
-  display: inline;
-  width: 35%;
-  height: 350px;
-}
-
-.gambar-car-2-2{
-  display: inline;
-  width: 35%;
-}
-
-.gambar-car-3-2 {
-  display: inline;
-  width: 30%;
-}
-
-
-
-.gambar-car-1-3 {
-  display: inline;
-  width: 28%;
-}
-
-.gambar-car-2-3{
-  display: inline;
-  height: 350px;
-  width: 47%;
-}
-
-.gambar-car-3-3 {
-  height: 300px;
-  display: inline;
-  width: 25%;
-}
-
-
-.row-for-txt-top{
-    margin-right: 25px;
-    margin-left: 25px;
-}
-
-.media-q {
-    padding-bottom: 0px;
-    font-size: 32px;
-}
-
-.center-atas {
-    font-family: 'Public Sans';
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    justify-content: center;
+.text-content-4 {
+  color: #527A6F;
+  font-size: small;
+  font-family: 'Public Sans';
 }
 
 .gambar-kecil {
-    width: 17%;
+  width: 17%;
 }
 
 .text-kecil {
-    display: inline;
-    color: #527A6F;
-    font-size: smaller;
-    text-align: justify;
-    font-weight: bold;
-    
+  display: inline;
+  color: #527A6F;
+  font-size: small;
+  text-align: justify;
+  font-weight: bold;
+  
 }
 
-.gambar-peta-responsive {
-    display: none;
+.photo-text-set {
+  padding-right: 100px;
 }
+/* 
+.holder-mid {
+  background-color: black;
+} */
 
-
-
-.col-gambar-kecil {
-    padding-bottom: 45px;
+.txt-upper-carousel {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 29px;
+  text-align: center;
+  font-style: italic;
+  color: #527A6F;
+  font-family: 'Public Sans';
 }
-
-
-

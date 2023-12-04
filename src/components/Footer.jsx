@@ -6,8 +6,8 @@ import './Footer.css';
 function Footer(){
     return( 
       <div>
-          <Navbar bg='myBg' expand="lg" className='cont-footer'>
-        <div className='cont-footer'>
+        <Navbar bg='myBg' expand="lg">
+        {/* <div className='cont-footer'>
             <Container >
               <Row className="justify-content-around">
                 <Col>
@@ -33,11 +33,32 @@ function Footer(){
                 <span style={{ margin: '0 10px' }}></span>
               </Row>
             </Container>
-        </div>
+        </div> */}
+            <div className='footer-content'>
+              <Container>
+                <Row className='row-spacing'>
+                  <Col className='text-footer-row'>Kantor Pusat</Col>
+                  <Col style={{marginRight: '100px'}}>Jl. Perkici 14, Blok EB 5 No. 15 -17, 
+                  Pondok Ranji, <br />
+                  Kec. Ciputat Timur, 
+                  Kota Tangerang Selatan, 
+                  Banten 15412</Col>
+                  
+                  <Col className='text-footer-row'>
+                  Telephone <br />
+                  E - Mail
+                  </Col>
+                  <Col className='text-footer-row'>
+                  +62 81242421985 <br />
+                  info@mavenindonesia.com
+                  </Col>
+                </Row>
+              </Container>
+            </div>
           </Navbar>
 
 
-      <div className='cont-footer-mobile'>
+      {/* <div className='cont-footer-mobile'>
       <Navbar bg='myBg' expand="lg">
             <Container >
               <div className='responsive-text-footer'>
@@ -61,10 +82,7 @@ function Footer(){
               </div>
             </Container>
           </Navbar>
-      </div>
-
-
-          
+      </div> */}
       </div>
     
     );

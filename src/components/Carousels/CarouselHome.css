@@ -1,0 +1,29 @@
+.container-carousel {
+    padding: 0px !important;    
+}
+
+.carousel-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+  
+.caption-content {
+    text-align: left;
+    font-family: 'Public Sans';
+    color: #EBE4DA;
+}
+
+  .caption-line .highlights {
+    font-size: x-large;
+  }
+
+.highlights {
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.dark-img {
+    filter: brightness(50%);
+}

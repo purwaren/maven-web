@@ -1,0 +1,22 @@
+.bg-myBg {
+    background-color: #527A6F;
+    color: #EBE4DA;;
+}
+
+.left-top-logo {
+    max-width: 100%;
+    height: auto;
+    width: 55%;
+    margin: 10px;
+}
+
+.ms-auto .navbar-text {
+    font-family: 'Public Sans';
+    color: #EBE4DA; 
+    text-decoration: none;
+}
+
+.navbar-text:hover {
+    color: inherit;
+    text-decoration: underline;
+}
