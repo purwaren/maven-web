@@ -111,12 +111,6 @@ const Mission = () => {
                             <p className="text-bawah-res">Value</p> </Link>
                         <img src={Line} alt="" className="garis-stack" />
                         </Col>
-                        <Col> 
-                        <img src={Line} alt="" style={{marginBottom: '-25px'}} className="garis-stack" />
-                        <Link to='/about/team' style={{textDecoration: 'none' , opacity: '0.5'}}>
-                            <p className="text-bawah-res">Team</p> </Link>
-                        <img src={Line} alt="" className="garis-stack" />
-                        </Col>
                     </Row>
                     <Row>
                     <Col className="text-tengah">Mission is what makes us keep insisting in moving forward. The main point 

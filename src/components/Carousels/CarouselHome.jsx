@@ -1,6 +1,5 @@
 import {Container ,Carousel, Button, Row, Col,} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
-// import '../HomeStyle.css';
 import './CarouselHome.css';
 import Depan from '../../img/Hal-depan-baru.webp';
 import Depan2 from '../../img/Depan2.webp';
@@ -33,7 +32,7 @@ const CarouselHome = () => {
                 </Carousel.Caption>
               </Carousel.Item>
               
-              <Carousel.Item className='smartphone' >
+              <Carousel.Item>
                   <img
                     className="d-block w-100 dark-img"
                     src={Depan2}

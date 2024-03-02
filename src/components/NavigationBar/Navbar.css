@@ -6,7 +6,7 @@
 .left-top-logo {
     max-width: 100%;
     height: auto;
-    width: 55%;
+    width: 80%;
     margin: 10px;
 }
 
@@ -14,6 +14,7 @@
     font-family: 'Public Sans';
     color: #EBE4DA; 
     text-decoration: none;
+    font-size: larger;
 }
 
 .navbar-text:hover {

@@ -1,5 +1,5 @@
 .container-carousel {
-    padding: 0px !important;    
+    padding: 0px !important;
 }
 
 .carousel-caption {
@@ -13,6 +13,8 @@
     text-align: left;
     font-family: 'Public Sans';
     color: #EBE4DA;
+    padding: 0px;
+    font-size: medium;
 }
 
   .caption-line .highlights {
@@ -27,3 +29,15 @@
 .dark-img {
     filter: brightness(50%);
 }
+
+
+
+@media (max-width: 767px) {
+    .caption-line {
+        font-size: small;
+    }
+    
+    .caption-line .highlights {
+        font-size: large;
+    }
+  }

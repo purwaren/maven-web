@@ -12,13 +12,12 @@ const CarouselFooter = () => {
         <>
           <Container fluid className='container-carousel'>
             <Carousel slide={false}  className='my-carousel-footer'>
-
               <Carousel.Item className='item-1'>
                   <img
                     className="img-footer"
                     src={stairs}
                     alt="Second slide"
-                    height={300}
+                    height={350}
                   />  
                   <img
                     className="img-footer-center"
@@ -29,7 +28,7 @@ const CarouselFooter = () => {
                     className="img-footer"
                     src={Kitchen}
                     alt="Second slide"
-                    height={300}
+                    height={350}
                   />  
               </Carousel.Item>
 
@@ -38,7 +37,7 @@ const CarouselFooter = () => {
                     className="img-footer"
                     src={LivingRoom1}
                     alt="Second slide"
-                    height={300}
+                    height={350}
                   />  
                   <img
                     className="img-footer-center-2"
@@ -50,7 +49,7 @@ const CarouselFooter = () => {
                     className="img-footer"
                     src={stairs}
                     alt="Second slide"
-                    height={300}
+                    height={350}
                   />  
               </Carousel.Item>
 
@@ -59,62 +58,93 @@ const CarouselFooter = () => {
                     className="img-footer"
                     src={Kitchen}
                     alt="Second slide"
-                    height={300}
+                    height={350}
                   />  
                   <img
                     className="img-footer-center-2"
                     src={stairs}
                     alt="Second slide"
-                    height={380}
+                    height={450}
                   />  
                   <img
                     className="img-footer"
                     src={LivingRoom1}
                     alt="Second slide"
-                    height={300}
+                    height={350}
                   />  
               </Carousel.Item>
-              
-              {/* <Carousel.Item className='smartphone' >
+          </Carousel>
+
+          <Carousel slide={false}  className='my-carousel-mobile'>
+              <Carousel.Item className='item-1'>
                   <img
-                    className="d-block w-100 dark-img"
-                    src={Depan2}
+                    className="img-footer"
+                    src={stairs}
                     alt="Second slide"
-                  />
-                <Carousel.Caption>
-                  <div className="caption-content">
-                    <h1 className="caption-line">LUXURY LIMITED UNITS</h1>
-                    <h1 className="caption-line">IN WEST JAKARTA</h1>
-                    <p className="caption-line">Started from 
-                      <h4 style={{display: 'inline'}} className='highlights'> Rp. 2 billions</h4> 
-                    </p>
-                    <p className="caption-line">Specially Designed by 
-                      <h4 style={{display: 'inline'}} className='highlights'> Atelier Riri</h4> 
-                    </p>
-                  </div>
-                </Carousel.Caption>
+                    height={100}
+                  />  
+                  <img
+                    className="img-footer-center"
+                    src={LivingRoom1}
+                    alt="Second slide"
+                    height={120}
+                  />  
+                  <img
+                    className="img-footer"
+                    src={Kitchen}
+                    alt="Second slide"
+                    height={100}
+                  />  
               </Carousel.Item>
 
-              <Carousel.Item> 
+              <Carousel.Item className='item-1'>
                   <img
-                    className="d-block w-100 dark-img"
-                    src={Depan3}
-                    alt="Second slide"  
-                  />
-                <Carousel.Caption>
-                    <div className="caption-content">
-                    <h1 className="caption-line">LUXURY LIMITED UNITS</h1>
-                    <h1 className="caption-line">IN WEST JAKARTA</h1>
-                    <p className="caption-line">Started from 
-                      <h4 style={{display: 'inline'}} className='highlights'> Rp. 2 billions</h4>
-                    </p>
-                    <p className="caption-line">Specially Designed by 
-                      <h4 style={{display: 'inline'}} className='highlights'> Atelier Riri</h4>
-                    </p>
-                  </div>
-                </Carousel.Caption> 
-              </Carousel.Item> */}
+                    className="img-footer"
+                    src={LivingRoom1}
+                    alt="Second slide"
+                    height={100}
+                    
+                  />  
+                  <img
+                    className="img-footer-center-2"
+                    src={Kitchen}
+                    alt="Second slide"
+                    height={120}
 
+                   
+                  />  
+                  <img
+                    className="img-footer"
+                    src={stairs}
+                    alt="Second slide"
+                    height={100}
+                    
+                  />  
+              </Carousel.Item>
+
+              <Carousel.Item className='item-1'>
+                  <img
+                    className="img-footer"
+                    src={Kitchen}
+                    alt="Second slide"
+                    height={100}
+                    
+                  />  
+                  <img
+                    className="img-footer-center-2"
+                    src={stairs}
+                    alt="Second slide"
+                    height={120}
+                   
+                  />  
+                  <img
+                    className="img-footer"
+                    src={LivingRoom1}
+                    alt="Second slide"
+                    height={100}
+                    
+                  />  
+              </Carousel.Item>
           </Carousel>
         </Container>
       </>

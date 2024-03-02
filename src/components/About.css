@@ -26,11 +26,11 @@
     width: 15%;
 }
 
-.text-tengah {
+.text-tengah-main {
     color: #527A6F;
     font-family: 'Public Sans';
     text-align: justify;
-    font-size: 15px;
+    font-size: large;
 }
 
 .atas .gambar-atas {

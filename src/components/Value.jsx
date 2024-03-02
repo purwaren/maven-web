@@ -95,12 +95,6 @@ const Value = () => {
                             <p className="text-bawah-res">Value</p> </Link>
                         <img src={Line} alt="" className="garis-stack" />
                         </Col>
-                        <Col> 
-                        <img src={Line} alt="" style={{marginBottom: '-25px'}} className="garis-stack" />
-                        <Link to='/about/team' style={{textDecoration: 'none' , opacity: '0.5'}}>
-                            <p className="text-bawah-res">Team</p> </Link>
-                        <img src={Line} alt="" className="garis-stack" />
-                        </Col>
                     </Row>
                     <Row>
                     <Col className="text-tengah">The products and services we provide exhibit our core principles. Innovative, artistic, and problem-solving are the three core values that we implement in every decision and process. Maven attempts to be present with our values through high-quality artistic products that improve the quality of life in an effort to be present with our ideals.</Col>

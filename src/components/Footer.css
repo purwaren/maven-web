@@ -3,6 +3,40 @@
   text-align: justify;
   font-size: larger;
   font-family: 'Public Sans';
-  padding: 10px;
-  margin-left: 300px;
+}
+
+.adjustment {
+  display: flex;
+  justify-content: center;
+  background-color: #527A6F;
+}
+
+.mobile {
+  display: none;
+  visibility: hidden;
+}
+
+
+.footer-content p {
+  padding: 30px;
+}
+
+
+@media (max-width: 767px) {
+  .mobile {
+    display: flex;
+    visibility: visible;
+    background-color: #527A6F;
+  }
+
+  .footer-content {
+
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .adjustment {
+    display: none;
+    visibility: hidden;
+  }
 }

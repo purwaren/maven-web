@@ -16,7 +16,7 @@
 }
 
 .gambar-row-1 {
-  width: 100%;
+  max-width: 100%;
 }
 
 .row-for-img-top{
@@ -24,59 +24,61 @@
 }
 
 .judul-nesta {
-  font-size: xx-large;
   font-weight: 500;
   font-family: 'Public Sans';
   color: #527A6F;
 }
 
-.text {
-  padding-bottom: 10px;
+.text-main {
   color: #527A6F;
   font-family: 'Public Sans';
   text-align: justify;
   font-weight: lighter;
+  font-size: larger;
 }
 
 .text-content-2 {
   font-weight: bold;
   color: #527A6F;
-  font-size: small;
+  font-size: larger;
   font-family: 'Public Sans';
 }
 
 .text-content-3 {
   color: #527A6F;
-  font-size: 11px;
+  font-size: medium;
   font-family: 'Public Sans';
+  
 }
 
 .text-content-4 {
   color: #527A6F;
-  font-size: small;
+  font-size: medium;
   font-family: 'Public Sans';
 }
 
 .gambar-kecil {
-  width: 17%;
+  max-width: 20%;
 }
 
 .text-kecil {
   display: inline;
   color: #527A6F;
-  font-size: small;
+  font-size: medium;
   text-align: justify;
   font-weight: bold;
   
 }
 
-.photo-text-set {
-  padding-right: 100px;
+.gmaps {
+  max-width: 100%;
 }
-/* 
-.holder-mid {
-  background-color: black;
-} */
+
+
+.nesta-loc {
+  color: #527A6F;
+  font-family: 'Public Sans';
+}
 
 .txt-upper-carousel {
   padding-top: 100px;
@@ -86,4 +88,54 @@
   font-style: italic;
   color: #527A6F;
   font-family: 'Public Sans';
+}
+
+.main-menu-mobile {
+  display: none;
+  visibility: hidden;
+}
+
+.menu-mid-mobile {
+  display: none;
+  visibility: hidden;
+}
+
+@media (max-width: 767px) {
+  .main-menu-mobile {
+    display: flex;
+    visibility: visible;
+  }
+
+  .menu-mid-mobile {
+    display: flex;
+    visibility: visible;
+  }
+  .text-main {
+    background-color: black;
+  }
+
+  .nesta-resp{
+    color: #527A6F;
+    font-family: 'Public Sans';
+  }
+
+  .nesta-content {
+  color: #527A6F;
+  font-family: 'Public Sans';
+  text-align: justify;
+  }
+
+  .gb-resp {
+    max-width: 100%;
+    padding: 50px;
+  }
+
+  .main-menu-desktop {
+    visibility: hidden;
+    display: none;
+  }
+  .menu-mid-desktop {
+    visibility: hidden;
+    display: none;
+  }
 }

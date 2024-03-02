@@ -45,7 +45,7 @@ const Investor = () => {
                                         </p>
                                         </Col>
                                         <Col style={{display: 'inline', paddingTop: '15px'}}>
-                                        <p style={{display: 'inline', fontSize: '12px'}}> Running a dynamic business which focuses on the real
+                                        <p style={{display: 'inline', fontSize: 'medium'}}> Running a dynamic business which focuses on the real
                                         <br /> estate industry. </p>
                                     </Col>
                                 </Row>
@@ -62,7 +62,7 @@ const Investor = () => {
                                         </p>
                                         </Col>
                                         <Col style={{display: 'inline', paddingTop: '15px'}}>
-                                        <p style={{display: 'inline', fontSize: '12px'}}> Producing products & services which result from the 
+                                        <p style={{display: 'inline', fontSize: 'medium'}}> Producing products & services which result from the <br />
                                         response of the contemporary issue. </p>
                                     </Col>
                                 </Row>
@@ -78,7 +78,7 @@ const Investor = () => {
                                         </p>
                                         </Col>
                                         <Col style={{display: 'inline', paddingTop: '22px'}}>
-                                        <p style={{display: 'inline', fontSize: '12px'}}>Collaborating with experts and property owners.</p>
+                                        <p style={{display: 'inline', fontSize: 'medium'}}>Collaborating with experts and property owners.</p>
                                     </Col>
                                 </Row>
 
@@ -91,7 +91,7 @@ const Investor = () => {
                                         </p>
                                         </Col>
                                         <Col style={{display: 'inline', paddingTop: '15px'}}>
-                                        <p style={{display: 'inline', fontSize: '12px'}}>Avoiding the common price war strategy by preventing
+                                        <p style={{display: 'inline', fontSize: 'medium'}}>Avoiding the common price war strategy by preventing
                                         the low-end market.</p>
                                     </Col>
                                 </Row>

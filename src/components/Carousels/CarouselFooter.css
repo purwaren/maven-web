@@ -2,6 +2,7 @@
     display: inline;
     justify-content: center;
     width: 30%;
+    max-width: 40%;
 }
 
 .img-footer-center {
@@ -25,3 +26,21 @@
     padding-bottom: 50px;
     display: flex;
 }
+.my-carousel-mobile {
+    visibility: hidden;
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .my-carousel-footer{
+        display: none;
+        visibility: hidden;
+    }
+
+    .my-carousel-mobile {
+        display: flex;
+        visibility: visible;
+    }
+
+    
+  }
